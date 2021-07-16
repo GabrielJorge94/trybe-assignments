@@ -7,8 +7,8 @@ This repository contains my assignments collection made by [myself](https://www.
 ## Web Development Fundaments :construction:
 
 ##### Bloco 1: Unix, Bash e Shell Script
- * :heavy_check_mark: 1.3 - Fundamentos do Desenvolvimento Web
- * :heavy_check_mark: 1.3 - Introdução - Unix & Shell
+ * :heavy_check_mark: 1.3 - Web Development Fundaments
+ * :heavy_check_mark: 1.3 - Introduction - Unix & Shell
  * :heavy_check_mark: 1.3 - Unix & Bash - Part 1
  * :heavy_check_mark: 1.4 - Unix & Bash - Part 2
 ##### Bloco 2: Git, GitHub e Internet
