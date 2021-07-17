@@ -6,12 +6,12 @@ This repository contains my assignments collection made by [myself](https://www.
 
 ## Web Development Fundaments :construction:
 
-##### Bloco 1: Unix, Bash e Shell Script
- * :heavy_check_mark: 1.3 - Web Development Fundaments
- * :heavy_check_mark: 1.3 - Introduction - Unix & Shell
- * :heavy_check_mark: 1.3 - Unix & Bash - Part 1
- * :heavy_check_mark: 1.4 - Unix & Bash - Part 2
-##### Bloco 2: Git, GitHub e Internet
- * :heavy_check_mark: 2.1 - Git & GitHub - What is it and What is it for
- * :heavy_check_mark: 2.2 - Git & GitHub - Understanding commands
- * 2.3 - Internet - How it works
+##### Unit 1: Unix, Bash e Shell Script
+ * [X] 1.3 - Web Development Fundaments
+ * [X] 1.3 - Introduction - Unix & Shell
+ * [X] 1.3 - Unix & Bash - Part 1
+ * [X] 1.4 - Unix & Bash - Part 2
+##### Unit 2: Git, GitHub e Internet
+ * [X] 2.1 - Git & GitHub - What is it and What is it for
+ * [X] 2.2 - Git & GitHub - Understanding commands
+ * [] 2.3 - Internet - How it works
