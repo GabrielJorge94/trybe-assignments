@@ -2,14 +2,14 @@
  
 :rotating_light: If you are not a _portuguese_ speaker, you can find the _english_ version of this document [here](https://github.com/GabrielJorge94/trybe-assignments/blob/master/README-en.md). 
 
-Este repositório contêm todas as atividades de aprendizagem que estão sendo desenvolvidas por  [Gabriel Jorge](https://www.linkedin.com/in/gabrieelh/) enquanto estuda na [Trybe](https://www.betrybe.com/) :rocket: (Jul 2021 - Jul 2022).
+Este repositório contêm todas as atividades de aprendizagem que estão sendo desenvolvidas por  [Gabriel Jorge](https://www.linkedin.com/in/gabrieelh/) enquanto pessoa estudante na [Trybe](https://www.betrybe.com/) :rocket: (Jul 2021 - Jul 2022).
 
 O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda introdução ao desenvolvimento de software, front-end, back-end, ciência da computação, engenharia de software, metodologias ágeis e habilidades comportamentais.
 
 ## Fundamentos do Desenvolvimento Web :hourglass_flowing_sand:
 
 
-### Bloco 1: [Introdução - Unix & Shell](https://github.com/GabrielJorge94/trybe-assignments/tree/master/01-fundaments/01-unix-and-shell)
+### Bloco 1: [Introdução - Unix & Shell](https://github.com/GabrielJorge94/trybe-assignments/tree/master/01-fundamentals/01-unix-and-shell)
 
 :ballot_box_with_check: 1-3: _Unix & Shell- Part 1_
 
@@ -36,7 +36,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 
 :black_large_square: 3-4: _HTML Semântico_
 
-:black_large_square: 3-5: _Projeto - Lesson Learned_
+:black_large_square: 3-5: _Projeto - Lessons Learned_
   
 
 ### Bloco 4: Introdução - JavaScript e Lógica
