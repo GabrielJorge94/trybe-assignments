@@ -1,15 +1,15 @@
 # English version - Trybe
 
- This repository contains all activities that are being developed by  _[Gabriel Jorge](https://www.linkedin.com/in/gabrieelh/)_  while studying at  [Trybe](https://www.betrybe.com/)  🚀 (Jul 2020 - Jul 2021).
+ This repository has all activities that are being developed by  _[Gabriel Jorge](https://www.linkedin.com/in/gabrieelh/)_  while studying at  [Trybe](https://www.betrybe.com/)  🚀 (Jul 2020 - Jul 2021).
 
-The web development training program from Trybe has a workload of  **1500 hours**  that covers front-end, back-end, computer science, software engineering, agile methodologies, and soft skills.
+Trybe's web development program has a workload of  **1500 hours**  that covers front-end, back-end, computer science, software engineering, agile methodologies, and soft skills.
 
 The main technical stacks studied are JavaScript, HTML, CSS, React, Node, Express.js, SQL, Git [...] among others languages and frameworks.
 
 ## Web development fundamentals :hourglass_flowing_sand:
 
 
-### Unit 1: [Introduction - Unix & Shell](https://github.com/GabrielJorge94/trybe-assignments/tree/master/01-fundaments/01-unix-and-shell)
+### Unit 1: [Introduction - Unix & Shell](https://github.com/GabrielJorge94/trybe-assignments/tree/master/01-fundamentals/01-unix-and-shell)
 
 :ballot_box_with_check: 1-3: _Unix & Shell- Part 1_
 
@@ -17,7 +17,7 @@ The main technical stacks studied are JavaScript, HTML, CSS, React, Node, Expres
 
 ### Unit 2: [Git & GitHub]()
 
-:ballot_box_with_check: 2-1: _What is it and what is it used for?_
+:ballot_box_with_check: 2-1: _What is it and what is it for?_
 
 :black_large_square: 2-2: _Understanding the commands_
 
@@ -31,15 +31,15 @@ The main technical stacks studied are JavaScript, HTML, CSS, React, Node, Expres
 
 :black_large_square: 3-3: _HTML & CSS - Selectors and positioning_
 
-:black_large_square: 3-4: _HTML semantic elements_
+:black_large_square: 3-4: _HTML Semantic elements_
 
-:black_large_square: 3-5: _Project - Lesson Learned_
+:black_large_square: 3-5: _Project - Lessons Learned_
   
 ### Unit 4: Introdução - JavaScript e Lógica
 
 :black_large_square:  4-1: _JavaScript - First steps_
 
-:black_large_square: 4-2: _JavaScript - Array e loop For_
+:black_large_square: 4-2: _JavaScript - Array and loop For_
 
 :black_large_square: 4-3: _JavaScript - Programming Logic and Algorithms_
 
@@ -58,7 +58,7 @@ The main technical stacks studied are JavaScript, HTML, CSS, React, Node, Expres
 
 :black_large_square:  5-4: _JavaScript - Web Storage_
 
-:black_large_square: 5.5: _Project: Art with Pixels_
+:black_large_square: 5.5: _Project: Pixal art_
 
 :black_large_square: 5-6: _Project - To Do List_
 
@@ -69,7 +69,7 @@ The main technical stacks studied are JavaScript, HTML, CSS, React, Node, Expres
 :black_large_square: 5-7: _Bonus Project - Mysterious Card_
 
 
-### Unit 6: HTML & CSS avançado
+### Unit 6: HTML & CSS Advanced
 
 :black_large_square: 6-1: _HTML & CSS - Forms_
 
@@ -119,7 +119,7 @@ The main technical stacks studied are JavaScript, HTML, CSS, React, Node, Expres
 :black_large_square: 9-3: _Project - Shopping Cart_
 
 
-### Unit 10: Automate Testing using Jest
+### Unit 10: Automated Testing using Jest
 
 :black_large_square: 10-1: _First steps with Jest_
 
@@ -183,7 +183,7 @@ The main technical stacks studied are JavaScript, HTML, CSS, React, Node, Expres
 
 :black_large_square: 16-2: _Using React Redux_
 
-:black_large_square: 16-3: _Using React Redux - Práctices_
+:black_large_square: 16-3: _Using React Redux - Practices_
 
 :black_large_square: 16-4: _Using React Redu - Async Actions_
 
@@ -199,13 +199,13 @@ The main technical stacks studied are JavaScript, HTML, CSS, React, Node, Expres
 
 ### Unit 18: Context API & Reack Hooks
 
-:black_large_square: 18-1: _Context API do React_
+:black_large_square: 18-1: _Context API React_
 
-:black_large_square: 18-2: _React Hooks - useState e useContext_
+:black_large_square: 18-2: _React Hooks - useState and useContext_
 
-:black_large_square: 18-3: _React Hooks - useEffect e Hooks customized_
+:black_large_square: 18-3: _React Hooks - useEffect and custom Hooks_
 
-:black_large_square: 18-4: _Project - StarWars Datatable com Context API e Hooks_
+:black_large_square: 18-4: _Project - StarWars Datatable with Context API and Hooks_
 
 
 ### Unit 19: Front-end's final project
@@ -217,7 +217,7 @@ The main technical stacks studied are JavaScript, HTML, CSS, React, Node, Expres
 
 ### Unit 20: Introduction - SQL
 
-:black_large_square: 20-1: _Bank Database using SQL_
+:black_large_square: 20-1: _SQL Database_
 
 :black_large_square: 20-2: _Finding data in a database_
 
@@ -241,11 +241,11 @@ The main technical stacks studied are JavaScript, HTML, CSS, React, Node, Expres
 
 ### Unit 22: Normalization and structuring database
 
-:black_large_square: 22-1: _Transforming ideias in a database model - Part 1_
+:black_large_square: 22-1: _Transforming ideas in a database model - Part 1_
 
 :black_large_square: 22-2: _Normalization, Normal form and Dumps_
 
-:black_large_square: 22-2: _Transforming ideias in a database model - Part 2_
+:black_large_square: 22-2: _Transforming ideas in a database model - Part 2_
 
 :black_large_square: 22-3: _Project - One For All_
 
@@ -281,7 +281,7 @@ The main technical stacks studied are JavaScript, HTML, CSS, React, Node, Expres
 
 ### Unit 26: Introduction - NodeJS
 
-:black_large_square: 26-1: _NodeJS - Introduçtion_
+:black_large_square: 26-1: _NodeJS - Introduction_
 
 :black_large_square: 26-2: _NodeJS - Asynchronous flow_
 
@@ -296,7 +296,7 @@ The main technical stacks studied are JavaScript, HTML, CSS, React, Node, Expres
 
 ### Unit 27: NodeJS: Service layer, Rest and Restful Architecture
 
-:black_large_square: 27-1: _Introduction, Service Layer e Layered: Software Architecture_
+:black_large_square: 27-1: _Introduction, Service Layer and Layered: Software Architecture_
 
 :black_large_square: 27-2: _Software Architecture - Service layer and controller_
 
@@ -321,7 +321,7 @@ The main technical stacks studied are JavaScript, HTML, CSS, React, Node, Expres
 
 :black_large_square: 29-1: _Introduction - Deploy_
 
-:black_large_square: 29-1: _Heroku Deployment_
+:black_large_square: 29-1: _Infrastructure - Heroku Deployment_
 
 :black_large_square: 29-2: _Process Managers_
 
@@ -336,12 +336,12 @@ The main technical stacks studied are JavaScript, HTML, CSS, React, Node, Expres
 
 :black_large_square: 30-3: _ORM - Associations_
 
-:black_large_square: 30-4: _Project - Blog's API_
+:black_large_square: 30-4: _Project - Blogs API_
 
 
 ### Unit 31: Sockets
 
-:black_large_square: 31-1: _Software Architecture - View's layer_
+:black_large_square: 31-1: _Software Architecture - Views layer_
 
 :black_large_square: 31-2: _Sockets - TCP/UDP & NET_
 
@@ -368,7 +368,7 @@ The main technical stacks studied are JavaScript, HTML, CSS, React, Node, Expres
 
 :black_large_square: 33-3: _Network and security tools_
 
-:black_large_square: 35-4: _Project - Exploring the protocols_
+:black_large_square: 35-4: _Project - Exploring protocols_
 
 
 ### Unit 34: Introduction - Python and Web Data Scraping
