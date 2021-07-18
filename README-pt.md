@@ -1,6 +1,6 @@
 # Trybe
  
-:rotating_light: If you are not a _portuguese_ speaker, you can find the _english_ version of this document [here](#/home/gabriel/Downloads/readme-en.md). 
+:rotating_light: If you are not a _portuguese_ speaker, you can find the _english_ version of this document [here](https://github.com/GabrielJorge94/trybe-assignments/blob/master/readme-en.md). 
 
 Este repositório contêm todas as atividades de aprendizagem que estão sendo desenvolvidas por  [Gabriel Jorge](https://www.linkedin.com/in/gabrieelh/) enquanto estuda na [Trybe](https://www.betrybe.com/) :rocket: (Jul 2021 - Jul 2022).
 
