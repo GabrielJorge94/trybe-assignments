@@ -31,28 +31,40 @@ ol {
 }
 
 ul:last-of-type li:nth-child(1) :hover {
-  color:orange
+  color:orange;
+  font-weight: bold;
 }
 
 ul:last-of-type li:nth-child(2) :hover {
-  color:green
+  color:green;
+  font-weight: bold;
 }
 
 ul:last-of-type li:nth-child(3) :hover {
-  color:black
+  color:black;
+  font-weight: bold;
 }
 
 ul:last-of-type li:nth-child(4) :hover {
-  color:yellow
+  color:yellow;
+  font-weight: bold;
 }
 
 ul:last-of-type li:nth-child(5) :hover {
-  color:green
+  color:green;
+  font-weight: bold;
 }
 
 ul:first-of-type li:nth-child(-n+3) {
-  color:blue
+  color:blue;
+  font-weight: bold;
 }
 
 ul:first-of-type li:nth-child(2), ul:first-of-type li:nth-child(3) {
   background-color: pink;
+}
+
+a{ 
+  text-decoration: none;
+  color:black
+}
