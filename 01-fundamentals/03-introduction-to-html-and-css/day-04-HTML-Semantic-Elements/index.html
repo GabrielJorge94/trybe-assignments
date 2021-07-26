@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ranking</title>
     <style>
-      h1 {
+      h1, h3, ul {
         text-align: center;
       }
 
@@ -15,7 +15,8 @@
         height: 50px;
         text-align: center;
         width: 200px;
-        margin-left: 200px;
+        margin-left: 350px;
+        list-style: none;
       }
 
       .second {
@@ -25,6 +26,7 @@
         text-align: center;
         width: 300px;
         display: inline-block;
+    
       }
 
       .third {
@@ -34,7 +36,12 @@
         text-align: center;
         width: 300px;
         display: inline-block;
+      }
 
+      .premiacao li {
+          text-align: center;
+          list-style: none;
+          display: inline;
       }
 
     </style>
@@ -52,17 +59,17 @@
     </section>
     <section>
       <h3>Premiação Primeiro Lugar:</h3>
-      <ul>
+      <ul class="premiacao">
         <li>| R$ 1000,00 por integrante da equipe |</li>
         <li>| Bootcamp de 2 meses com possibilidade de contratação |</li>
       </ul>
       <h3>Premiação Segundo Lugar:</h3>
-      <ul>
+      <ul class="premiacao">
         <li>| R$ 600,00 por integrante da equipe |</li>
         <li>| Participação no processo seletivo para o Bootcamp |</li>
       </ul>
       <h3>Premiação Terceiro Lugar:</h3>
-      <ul>
+      <ul class="premiacao">
         <li>| R$ 300,00 por integrante da equipe |</li>
         <li>| Participação no processo seletivo para o Bootcamp |</li>
       </ul>
