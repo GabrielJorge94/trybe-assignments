@@ -21,18 +21,18 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 
 :ballot_box_with_check: 2-1: _O que é e para que serve?_
 
-:black_large_square: 2-2: _Entendendo os comandos_
+:ballot_box_with_check: 2-2: _Entendendo os comandos_
 
-:black_large_square: 2-3: _Internet - Entendendo como ela funciona_
+:ballot_box_with_check: 2-3: _Internet - Entendendo como ela funciona_
 
 
 ### Bloco 3: Introdução - HTML & CSS
 
-:black_large_square: 3-1: _HTML & CSS - Estruturas de página_
+:ballot_box_with_check: 3-1: _HTML & CSS - Estruturas de página_
 
-:black_large_square: 3-2: _HTML & CSS - Primeiros passos em CSS_
+:ballot_box_with_check: 3-2: _HTML & CSS - Primeiros passos em CSS_
 
-:black_large_square: 3-3: _HTML & CSS - Seletores e posicionamento_
+:ballot_box_with_check: 3-3: _HTML & CSS - Seletores e posicionamento_
 
 :black_large_square: 3-4: _HTML Semântico_
 
