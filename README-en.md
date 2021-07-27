@@ -31,7 +31,7 @@ The main technical stacks studied are JavaScript, HTML, CSS, React, Node, Expres
 
 :ballot_box_with_check: 3-3: _HTML & CSS - Selectors and positioning_
 
-:black_large_square: 3-4: _HTML Semantic elements_
+:ballot_box_with_check: 3-4: _HTML Semantic elements_
 
 :black_large_square: 3-5: _Project - Lessons Learned_
   
