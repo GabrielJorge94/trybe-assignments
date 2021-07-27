@@ -34,7 +34,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 
 :ballot_box_with_check: 3-3: _HTML & CSS - Seletores e posicionamento_
 
-:black_large_square: 3-4: _HTML Semântico_
+:ballot_box_with_check: 3-4: _HTML Semântico_
 
 :black_large_square: 3-5: _Projeto - Lessons Learned_
   
