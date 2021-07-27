@@ -1,0 +1,63 @@
+body{
+    background-color: #F3F7F6;
+    font-family: monospace, sans-serif; 
+}
+header {
+    text-align: center;
+}
+
+nav {
+    background-color: #E9DBCB;
+}
+
+nav li {
+    display: inline-block;
+    margin-left:20%;
+    text-align: center;
+}
+
+nav li a {
+    color: #171614
+}
+
+.ref {
+    clear: both;
+    font-size: 15px;
+}
+
+.footer {
+    text-align: right;
+    font-size: 10px;
+}
+
+.table-info {
+    float:left;
+    width: 350px;
+    height: 262.5px;
+    position: absolute;
+}
+
+.fun-facts{
+    clear: both;
+}
+
+.stomatopoda-img {
+    width: 350px;
+    float: right;
+    position:relative;
+    margin-right: 300px;
+    margin-bottom: 20px;  
+}
+
+.fun-facts-vision {
+    width: 350px;
+    float: right;
+    margin-top: 70px;
+    margin-right: 300px;
+    position: relative;
+}
+
+.vision {
+    float:left;
+    max-width: 55%;
+}
