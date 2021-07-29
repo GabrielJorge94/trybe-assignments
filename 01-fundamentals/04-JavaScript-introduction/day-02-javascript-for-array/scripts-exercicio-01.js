@@ -74,9 +74,19 @@
 
 // Exercicio 8
 
-let numbers = [];
+// let numbers = [];
 
+// for (index = 1; index <= 25; index += 1 ) {
+//   numbers.push(index);
+// }
+// console.log (numbers);
+
+// Exercicio 9
+
+let numbers = 0;
+let numbersHalf = [];
 for (index = 1; index <= 25; index += 1 ) {
-  numbers.push(index);
+  numbers += 1;
+  numbersHalf.push(numbers*0.5);
 }
-console.log (numbers);
+console.log (numbersHalf);
