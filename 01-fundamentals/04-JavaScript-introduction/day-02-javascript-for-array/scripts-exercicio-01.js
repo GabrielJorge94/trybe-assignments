@@ -83,10 +83,10 @@
 
 // Exercicio 9
 
-let numbers = 0;
-let numbersHalf = [];
-for (index = 1; index <= 25; index += 1 ) {
-  numbers += 1;
-  numbersHalf.push(numbers*0.5);
-}
-console.log (numbersHalf);
+// let numbers = 0;
+// let numbersHalf = [];
+// for (index = 1; index <= 25; index += 1 ) {
+//   numbers += 1;
+//   numbersHalf.push(numbers*0.5);
+// }
+// console.log (numbersHalf);
