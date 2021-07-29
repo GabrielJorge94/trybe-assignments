@@ -10,3 +10,10 @@
 // let indexOfPortfolio = menu.indexOf('Portfólio');
 
 // console.log(indexOfPortfolio);
+
+// Exercicio 03
+
+// let menu = ['Home', 'Serviços', 'Portfólio', 'Links'];
+// menu.push('Contato');
+
+// console.log(menu);
