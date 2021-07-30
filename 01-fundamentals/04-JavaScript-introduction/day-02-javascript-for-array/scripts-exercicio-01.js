@@ -1,10 +1,19 @@
-// // Exercicio 1  
+// // Exercicio 1
+// 1 - definir array numbers ;
+// 2 - criar for para percorrer o array ;
+// 3 - imprimir todos os valores do array com console.log;
+
 // let numbers = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
 // for (let index = 0; index < numbers.length ; index += 1) {
 //   console.log (numbers[index]);
 // }
 
-// // Exercicio 2 
+// // Exercicio 2
+// 1 - Definir o array ; 
+// 2 - Criar variavel para armazenar a soma dos valores da array ;
+// 3 - criar for para percorrer os numeros e somar os mesmos ;
+// 4 - imprimir o resultado da soma com o console.log ;
+
 // let numbers = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
 // let sumNumbers = 0;
 // for (let i = 0 ; i < numbers.length; i++) {
@@ -12,7 +21,13 @@
 // }
 // console.log (sumNumbers);
 
-// Exercicio 3
+// Exercicio 3'
+// 1 - Definir o array ;
+// 2 - Definir variavel para guardar a soma dos valores do array ;
+// 3 - criar for para percorrer o array ;
+// 4 - Define variavel para armazenar a media da soma;
+// 5 - Imprime a media; 
+
 // let numbers = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
 // let sumNumbers = 0;
 // for (let i = 0 ; i < numbers.length; i++) {
@@ -21,6 +36,13 @@
 // console.log (averageNumbers);
 
 // Exercicio 4
+// 1 - Definir o array ;
+// 2 - Definir variavel para guardar a soma dos valores do array ;
+// 3 - criar for para percorrer o array ;
+// 4 - Define variavel para armazenar a media da soma;
+// 5 - criar if para que se o valor for maior que 20 imprima a mensagem (valor maior que 20) ;
+// 6 - Se nao , imprimir a mensagem (valor menor ou igual a 20) ;
+
 // let numbers = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
 // let sumNumbers = 0;
 // for (let i = 0 ; i < numbers.length; i++) {
@@ -34,6 +56,12 @@
 // }
 
 // // // Exercicio 5
+// 1 - Definir array ;
+// 2 - Criar variavel para armazenar o valor do maior numero ; 
+// 3 - Criar for para percorrer o array ;
+// 4 - Criar if para que se o valor da posicao no array for maior a variavel maiornumero, entao definir o maiornumero como esta variavel.
+// 5 - Imprimir o valor da variavel maiornumero ; 
+
 // let numbers = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
 // let biggestNumber = 0;
 // for (let i = 0 ; i < numbers.length; i++) {
@@ -44,6 +72,7 @@
 // console.log(biggestNumber);
 
 // Exercicio 6
+
 // let numbers = [2,4];
 // let oddNumber = 0;
 // for (index = 0; index < numbers.length; index += 1) {
