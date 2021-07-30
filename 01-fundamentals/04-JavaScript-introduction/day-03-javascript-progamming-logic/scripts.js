@@ -17,7 +17,14 @@
 // Exercicio 02
 
 // criar variavel para o valor n;
-// se n > 1 entao imprime n 
+// se n > 1 entao imprime * repeat i
+
+let n = 5; 
+if(n>1) {
+  for (i = 1; i <= n ; i += 1) {
+    console.log('*'.repeat(i));
+  }
+}
 
 
 
