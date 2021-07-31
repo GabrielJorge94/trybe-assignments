@@ -19,12 +19,12 @@
 // criar variavel para o valor n;
 // se n > 1 entao imprime * repeat i
 
-let n = 5; 
-if(n>1) {
-  for (i = 1; i <= n ; i += 1) {
-    console.log('*'.repeat(i));
-  }
-}
+// let n = 5; 
+// if(n>1) {
+//   for (i = 1; i <= n ; i += 1) {
+//     console.log('*'.repeat(i));
+//   }
+// }
 
 
 
@@ -42,3 +42,22 @@ if(n>1) {
     // console.log (" ".repeat(k) + "*".repeat(i));
   // }  
 // }
+
+
+// Exercicio 4
+
+// definir variavel n; 
+// verificar se n e > 1 ; 
+// criar repeticao para espacos onde se inicia em 2, diminui 1 a cada repeticao e se repete por 3 vezes. 
+// criar repeticao para asteriscos onde se inicia em 1, incrementa de 2 em 2 e se repete por 3 vezes.
+
+
+let n = 3;
+if(n>1) {
+  for (i = 1; i <= n ; i += 1) {
+    k = n - i
+    direita = '*'.repeat(i);
+    esquerda = " ".repeat(k) + "*".repeat(i-1);
+    console.log(esquerda + direita);
+  }
+}
