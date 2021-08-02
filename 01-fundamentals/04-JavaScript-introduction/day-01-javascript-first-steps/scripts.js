@@ -8,6 +8,37 @@
 // console.log ('Modulo: ' + (a%b));
 
 
+// // refatora usando funcoes
+// function sum(a, b) {
+//   return a + b;
+// }
+
+// console.log(sum(10,8));
+
+// function sub(a, b) {
+//   return a - b;
+// }
+
+// console.log(sub(10,8));
+
+// function mult(a, b) {
+//   return a * b;
+// }
+
+// console.log(mult(10,8));
+
+// function div(a, b) {
+//   return a / b;
+// }
+
+// console.log(div(10,8));
+
+// function mod(a, b) {
+//   return a % b;
+// }
+
+// console.log(mod(10,8));
+
 // let a = 5;
 // let b = 5;
 
@@ -144,65 +175,65 @@
 //   console.log (lucro);
 // }
 
-let salarioBruto = 16000;
-let descontaInss;
-let descontaIr;
+// let salarioBruto = 16000;
+// let descontaInss;
+// let descontaIr;
 
-// INSS
-let inss8 = (8/100);
-let inss9 = (9/100);
-let inss11 = (11/100);
-let inssMax = 570.88;
-// IR
-let ir0 = 0;
-let ir75 = (7.5/100);
-let ir15 = (15/100);
-let ir225 = (22.5/100);
-let ir275 = (27.5/100);
+// // INSS
+// let inss8 = (8/100);
+// let inss9 = (9/100);
+// let inss11 = (11/100);
+// let inssMax = 570.88;
+// // IR
+// let ir0 = 0;
+// let ir75 = (7.5/100);
+// let ir15 = (15/100);
+// let ir225 = (22.5/100);
+// let ir275 = (27.5/100);
 
 
 
-if (salarioBruto <= 1556.94) {
-  descontaInss = (salarioBruto*inss8);
-  console.log ("O valor de Inss a descontar e: " + descontaInss);
-}
-else if (salarioBruto >= 1556.95 && salarioBruto <= 2594.92) {
-  descontaInss = (salarioBruto*inss9);
-  console.log("O valor de Inss a descontar e: " + descontaInss);
-}
-else if (salarioBruto >= 2594.93 && salarioBruto <= 5189.82) {
-  descontaInss = (salarioBruto*inss11);
-  console.log("O valor de Inss a descontar e: " + descontaInss);
-}
-else {
-  descontaInss = inssMax;
-  console.log("O valor de Inss a descontar e: " + descontaInss);
-}
+// if (salarioBruto <= 1556.94) {
+//   descontaInss = (salarioBruto*inss8);
+//   console.log ("O valor de Inss a descontar e: " + descontaInss);
+// }
+// else if (salarioBruto >= 1556.95 && salarioBruto <= 2594.92) {
+//   descontaInss = (salarioBruto*inss9);
+//   console.log("O valor de Inss a descontar e: " + descontaInss);
+// }
+// else if (salarioBruto >= 2594.93 && salarioBruto <= 5189.82) {
+//   descontaInss = (salarioBruto*inss11);
+//   console.log("O valor de Inss a descontar e: " + descontaInss);
+// }
+// else {
+//   descontaInss = inssMax;
+//   console.log("O valor de Inss a descontar e: " + descontaInss);
+// }
 
-let salarioBase = salarioBruto - descontaInss;
+// let salarioBase = salarioBruto - descontaInss;
 
-console.log("O salario base e: " + salarioBase);
+// console.log("O salario base e: " + salarioBase);
 
-if (salarioBase <= 1903.98) {
-  descontaIr = 0;
-  console.log ("O valor de IR a descontar e: " + descontaIr);
-}
-else if (salarioBase >= 1903.99 && salarioBase <= 2826.65 ) {
-  descontaIr = (salarioBase*ir75)- 142.80;
-  console.log ("O valor de IR a descontar e: " + descontaIr);
-}
-else if (salarioBase >= 2826.66 && salarioBase <= 3751.05 ) {
-  descontaIr = (salarioBase*ir15)- 354.80;
-  console.log ("O valor de IR a descontar e: " + descontaIr);
-}
-else if (salarioBase >= 3751.06 && salarioBase <= 4664.68 ) {
-  descontaIr = (salarioBase*ir225)- 636.13;
-  console.log ("O valor de IR a descontar e: " + descontaIr);
-}
-else {
-  descontaIr = (salarioBase*ir275)- 869.36;
-  console.log ("O valor de IR a descontar e: " + descontaIr);
-}
+// if (salarioBase <= 1903.98) {
+//   descontaIr = 0;
+//   console.log ("O valor de IR a descontar e: " + descontaIr);
+// }
+// else if (salarioBase >= 1903.99 && salarioBase <= 2826.65 ) {
+//   descontaIr = (salarioBase*ir75)- 142.80;
+//   console.log ("O valor de IR a descontar e: " + descontaIr);
+// }
+// else if (salarioBase >= 2826.66 && salarioBase <= 3751.05 ) {
+//   descontaIr = (salarioBase*ir15)- 354.80;
+//   console.log ("O valor de IR a descontar e: " + descontaIr);
+// }
+// else if (salarioBase >= 3751.06 && salarioBase <= 4664.68 ) {
+//   descontaIr = (salarioBase*ir225)- 636.13;
+//   console.log ("O valor de IR a descontar e: " + descontaIr);
+// }
+// else {
+//   descontaIr = (salarioBase*ir275)- 869.36;
+//   console.log ("O valor de IR a descontar e: " + descontaIr);
+// }
 
-let salarioLiquido = salarioBase - descontaIr;
-console.log ("O salario liquido e: " + salarioLiquido);
+// let salarioLiquido = salarioBase - descontaIr;
+// console.log ("O salario liquido e: " + salarioLiquido);
