@@ -37,16 +37,31 @@
 
 // Exercicio 03 - 
 
-let teste = [2, 4, 6, 7, 10, 0, -3];
+// let teste = [2, 4, 6, 7, 10, 0, -3];
 
-function menorIndice () {
-  let menor = 0;
-  for ( i = 0 ; i < teste.length ; i += 1) {
-    if (teste[i] < teste[menor]) {
-      menor = i;
-    }
+// function menorIndice () {
+//   let menor = 0;
+//   for ( i = 0 ; i < teste.length ; i += 1) {
+//     if (teste[i] < teste[menor]) {
+//       menor = i;
+//     }
+    
+//   }
+//   return menor
+// }
+// console.log(menorIndice (teste));
+
+// Exercicio 04 - 
+
+let teste =  ['José', 'Lucas', 'Nádia', 'Fernanda', 'Cairo', 'Joana'];
+function maiorNome () {
+  let maisCaracteres = 0 ;
+  for (i = 0 ; i < teste.length ; i += 1) {
+    if (teste[i].length > teste[maisCaracteres].length)
+    maisCaracteres = i;
     
   }
-  return menor
+  return teste[maisCaracteres]
 }
-console.log(menorIndice (teste));
+
+console.log (maiorNome(teste))
