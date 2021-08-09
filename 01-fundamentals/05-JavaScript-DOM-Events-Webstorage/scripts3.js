@@ -12,3 +12,5 @@ document.getElementsByClassName("no-emergency-tasks")[0].style.backgroundColor =
 document.querySelectorAll(".xyz")[0].style.backgroundColor = "black";
 
 document.querySelectorAll(".xyz")[1].style.backgroundColor = "black";
+
+document.querySelector("#footer-container").style.backgroundColor = "green";
