@@ -12,4 +12,5 @@ let paragraph = document.getElementsByClassName("pa")
 
 for(let i = 0; i < paragraph.length; i += 1) {
 paragraph[i].innerText = "texto maisculo".toUpperCase();
+console.log(paragraph[i]);
 }
