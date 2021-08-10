@@ -49,5 +49,5 @@ let filho = elementoprimeiroFilhoDoFilho.firstElementChild
 filho.parentNode.parentNode.nextElementSibling
 
 
+// Remova todos os elementos filhos de paiDoPai exceto pai , elementoOndeVoceEsta e primeiroFilhoDoFilho .
 
-// document.querySelector('#segundoEUltimoFilhoDoFilho').previousElementSibling.insertBefore(document.createElement('section'),document.querySelector('#segundoEUltimoFilhoDoFilho'.previousElementSibling));
