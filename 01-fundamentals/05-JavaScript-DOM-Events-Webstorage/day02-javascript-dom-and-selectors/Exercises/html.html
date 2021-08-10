@@ -82,6 +82,19 @@
       let tagP = tagSection.children[0];
       tagP.innerText = "Algum texto aqui";
 
+      // Adicione a tag section com a classe left-content como filho da tag main criada no passo 2;
+      let addSection2 = document.createElement('section');
+      tagMain.appendChild(addSection2);
+      let tagSection2 = tagMain.children[1];
+      tagSection2.className = "left-content";
+
+      // Adicione a tag section com a classe right-content como filho da tag main criada no passo 2;
+      let addSection3 = document.createElement('section');
+      tagMain.appendChild(addSection3);
+      let tagSection3 = tagMain.children[2];
+      tagSection3.className = "right-content";
+
+
       </script>
   </body>
 </html>
