@@ -134,6 +134,14 @@
 
       // Troque a cor de fundo do elemento pai da section criada no passo 3 (aquela que possui a classe center-content ) para a cor verde;
       document.querySelector('.center-content').style.backgroundColor = "green";
+      
+      // Remova os dois últimos elementos ( nove e dez ) da lista criada no passo 8.
+      let ulList = document.querySelector('.right-content').children
+
+      for (r = 9; r > 7 ; r -= 1){
+        let ulToRemove = document.querySelectorAll('ul')[r]
+        tagSection3.removeChild(ulToRemove);
+      }
 
 
       </script>
