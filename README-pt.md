@@ -36,27 +36,27 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 
 :ballot_box_with_check: 3-4: _HTML Semântico_
 
-:black_large_square: 3-5: _Projeto - Lessons Learned_
+:ballot_box_with_check: 3-5: _Projeto - Lessons Learned_
   
 
 ### Bloco 4: Introdução - JavaScript e Lógica
 
-:black_large_square:  4-1: _JavaScript - Primeiros passos_
+:ballot_box_with_check:  4-1: _JavaScript - Primeiros passos_
 
-:black_large_square: 4-2: _JavaScript - Array e loop For_
+:ballot_box_with_check: 4-2: _JavaScript - Array e loop For_
 
-:black_large_square: 4-3: _JavaScript - Lógica de Programação e Algoritmos_
+:ballot_box_with_check: 4-3: _JavaScript - Lógica de Programação e Algoritmos_
 
-:black_large_square: 4-4: _JavaScript - Objetos e funções_
+:ballot_box_with_check: 4-4: _JavaScript - Objetos e funções_
 
-:black_large_square: 4-5: _Projeto - Playground Functions_
+:ballot_box_with_check: 4-5: _Projeto - Playground Functions_
 
   
 ### Bloco 5: Javascript: DOM, Eventos e Web Storage
 
-:black_large_square: 5-1: _JavaScript - DOM e seletores_
+:ballot_box_with_check: 5-1: _JavaScript - DOM e seletores_
 
-:black_large_square: 5-2: _JavaScript - Trabalhando com elementos_
+:ballot_box_with_check: 5-2: _JavaScript - Trabalhando com elementos_
 
 :black_large_square: 5-3: _JavaScript - Eventos_
 
