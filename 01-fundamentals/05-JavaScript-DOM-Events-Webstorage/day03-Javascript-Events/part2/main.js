@@ -1,8 +1,8 @@
-const firstLi = document.getElementById('first-li');
-const secondLi = document.getElementById('second-li');
-const thirdLi = document.getElementById('third-li');
+const firstLi = document.getElementById('firstLi');
+const secondLi = document.getElementById('secondLi');
+const thirdLi = document.getElementById('thirdLi');
 const input = document.getElementById('input');
-const myWebpage = document.getElementById('my-spotrybefy');
+const myWebpage = document.getElementById('mySpotrybefy');
 
 /*
  Copie esse arquivo e edite apenas ele;
@@ -18,6 +18,35 @@ a cor do mesmo;
 
 Segue abaixo um exemplo do uso de event.target:
 */
+
+function addClass () {
+  secondLi.className = "tech";
+  if(secondLi.className = "tech"){
+    firstLi.className = "";
+    thirdLi.className = "";
+  }
+}
+
+secondLi.addEventListener('dblclick', addClass);
+
+function changeText () {
+  let classTech = document.querySelector(".tech")
+
+  classTech.innerText = "TESTE";
+  
+}
+
+input.addEventListener('input', changeText);
+
+function redirect () {
+  window.location.href = "https://gabrieljorge94.github.io/"
+}
+myWebpage.addEventListener('dblclick',redirect);
+
+function changeColor (){
+  myWebpage.style.color = "red";
+}
+myWebpage.addEventListener('mouseover',changeColor)
 
 function resetText(event) {
   // O Event é passado como um parâmetro para a função.
