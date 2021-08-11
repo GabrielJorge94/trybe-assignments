@@ -33,26 +33,26 @@ The main technical stacks studied are JavaScript, HTML, CSS, React, Node, Expres
 
 :ballot_box_with_check: 3-4: _HTML Semantic elements_
 
-:black_large_square: 3-5: _Project - Lessons Learned_
+:ballot_box_with_check: 3-5: _Project - Lessons Learned_
   
 ### Unit 4: Introdução - JavaScript e Lógica
 
-:black_large_square:  4-1: _JavaScript - First steps_
+:ballot_box_with_check:  4-1: _JavaScript - First steps_
 
-:black_large_square: 4-2: _JavaScript - Array and loop For_
+:ballot_box_with_check: 4-2: _JavaScript - Array and loop For_
 
-:black_large_square: 4-3: _JavaScript - Programming Logic and Algorithms_
+:ballot_box_with_check: 4-3: _JavaScript - Programming Logic and Algorithms_
 
-:black_large_square: 4-4: _JavaScript - Objects and functions_
+:ballot_box_with_check: 4-4: _JavaScript - Objects and functions_
 
-:black_large_square: 4-5: _Project - Playground Functions_
+:ballot_box_with_check: 4-5: _Project - Playground Functions_
 
 
 ### Unit 5: Javascript: DOM, Events e Web Storage
 
-:black_large_square: 5-1: _JavaScript - DOM and selectors_
+:ballot_box_with_check: 5-1: _JavaScript - DOM and selectors_
 
-:black_large_square: 5-2: _JavaScript - Working with elements_
+:ballot_box_with_check: 5-2: _JavaScript - Working with elements_
 
 :black_large_square: 5-3: _JavaScript - Events_
 
