@@ -102,8 +102,7 @@
 
       // Adicione uma lista não ordenada com os valores de 1 a 10 por extenso, ou seja, um , dois , três , ... como valores da lista. Essa lista deve ser filha do section criado no passo 6;
       let listItems = ['um','dois','tres','quatro','cinco','seis','sete','oito','nove','dez'];
-
-      // document.querySelector('.right-content')
+      
       let addUl = document.createElement('ul')
       tagSection3.appendChild(addUl)
       
@@ -142,9 +141,8 @@
       // Remova os dois últimos elementos ( nove e dez ) da lista criada no passo 8.
       let ulList = document.querySelector('ul').children
 
-      for (r = 9; r > 7 ; r -= 1){
-        let liToRemove = document.querySelectorAll('li')[r]
-        addUl.removeChild(liToRemove);
+      for (r = 0; r < 2 ; r += 1){
+        addUl.lastChild.remove();
       }
 
 
