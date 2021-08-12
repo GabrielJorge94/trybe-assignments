@@ -50,4 +50,39 @@ function createButton(Feriados){
 }
 createButton('Feriados');
 
+
+let getButton = document.getElementById('btn-holiday');
+
+function buttonClick (){
+  let getUl = document.getElementById("days");
+  let getLi = getUl.getElementsByClassName("holiday");
+  
+  for (let i = 0; i < getLi.length; i+= 1) {
+  let holidays = getli[i];
+    if(holidays.style.color = "rgb(238,238,238)";){
+      getLi[i].style.color = "red";
+    }
+  }
+}
+getButton.addEventListener('click', buttonClick);
+
+function fridayButton(){
+  let addButtonFriday = document.createElement('button');
+  let getDiv = document.querySelector(".buttons-container");
+  addButtonFriday.innerText = "Sexta-Feira";
+  addButtonFriday.id = "btn-friday";
+  getDiv.appendChild(addButtonFriday);
+}
+fridayButton("Sexta-feira");
+
+let getFridayButton = document.getElementById('btn-friday');
+function fridayButtonClick (){
+  let getUl = document.getElementById("days");
+  let getLi = getUl.getElementsByClassName("friday");
+  
+  for (let i = 0; i < getLi.length; i+= 1) {
+  getLi[i].innerText ="SEXTOU!!!";
+  }
+}
+getFridayButton.addEventListener('click', fridayButtonClick);
 // Escreva seu código abaixo.
