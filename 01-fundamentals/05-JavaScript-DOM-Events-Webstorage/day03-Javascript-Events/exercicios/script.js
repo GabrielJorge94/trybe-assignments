@@ -57,11 +57,15 @@ function buttonClick (){
   let getUl = document.getElementById("days");
   let getLi = getUl.getElementsByClassName("holiday");
   
+  
   for (let i = 0; i < getLi.length; i+= 1) {
-  let holidays = getli[i];
-    if(holidays.style.color = "rgb(238,238,238)";){
-      getLi[i].style.color = "red";
-    }
+  let holidays = getLi[i];
+  // holidays.style.backgroundColor = "rgb(238,238,238)"
+    if(holidays.style.backgroundColor === "rgb(238, 238, 238)"){
+      holidays.style.backgroundColor = "red";
+     }else{
+      holidays.style.backgroundColor = "rgb(238, 238, 238)";
+     }
   }
 }
 getButton.addEventListener('click', buttonClick);
