@@ -88,15 +88,72 @@ function fridayButtonClick (){
 
   
   for (let i = 0; i < getLi.length; i+= 1) {
-  console.log(fridayArray[i]);
+  
     if(getLi[i].innerHTML !== newFriday ){
-      // console.log(fridays);
-    getLi[i].innerHTML = newFriday;
-    // console.log(fridays.innerText)
-  } else {
-    getLi[i].innerHTML = fridayArray[i];
+      getLi[i].innerHTML = newFriday;
+      } else {
+      getLi[i].innerHTML = fridayArray[i];
     }
   }
 }
 getFridayButton.addEventListener('click', fridayButtonClick);
+
+let days = document.querySelector('#days')
+
+function zoomIn (event){
+event.target.style.fontSize = '30px'
+}
+function zoomOut (event){
+  event.target.style.fontSize = '20px'
+}
+
+days.addEventListener('mouseover',zoomIn)
+days.addEventListener('mouseout', zoomOut)
+
+function addTask(string){
+  let getDiv = document.querySelector('.my-tasks');
+  let addSpan = document.createElement('span');
+  addSpan.innerHTML = string;
+  getDiv.appendChild(addSpan);
+}
+addTask('projeto');
+
+function addColor(cor){
+  let getDivPai = document.querySelector('.my-tasks');
+  let addDiv = document.createElement('div');
+  addDiv.style.backgroundColor = cor ;
+  addDiv.id = "color";
+  getDivPai.appendChild(addDiv);
+}
+addColor ('pink');
+
+let getDivCor = document.getElementById('color');
+
+function addNewClass(){
+  console.log(getDivCor)
+if(getDivCor.className !== "task selected"){
+  getDivCor.className = "task selected";
+} else {
+  getDivCor.className = "task";
+  }
+}
+
+getDivCor.addEventListener('click', addNewClass);
+
+
+let nights = document.querySelector('#days')
+
+function legendColor (event){
+  if(event.target.style.color !== 'pink'){
+  event.target.style.color = 'pink'
+  } else {
+    event.target.style.color = 'rgb(119,119,119)'
+  }
+}
+
+days.addEventListener('click', legendColor)
+
+
+
 // Escreva seu código abaixo.
+
