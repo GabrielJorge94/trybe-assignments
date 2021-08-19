@@ -10,61 +10,63 @@
 </head>
   <body>
     <form action="" method="get">
-      <div class="container">
-        <h1 class="display-3">Preencha o Forms!!!</h1>
+      <div class="container mb-3" >
+        <h1 class="display-3 text-center">Preencha o Forms!!!</h1>
       </div>
-      <div class="container">
+      <div class="container mb-3">
         <p>Dados pessoais</p></div>
-      <div class="container">
+      <div class="container mb-3">
         <label for="names">Nome</label>
-        <input type="text" name="enterName" id="names" required maxlength="40">
+        <input class="form-control" type="text" name="enterName" id="names" required maxlength="40">
       </div>
-        <div class="container">
+        <div class="container mb-3">
         <label for="emails">E-mail</label>
-        <input type="text" name="enterEmail" id="emails" required maxlength="50">
+        <input class="form-control" type="text" name="enterEmail" id="emails" required maxlength="50">
       </div>
-        <div class="container">
+        <div class="container mb-3">
         <label for="cpfs">CPF</label>
-        <input type="text" name="enterCPF" id="cpfs" required maxlength="11">
+        <input class="form-control" type="text" name="enterCPF" id="cpfs" required maxlength="11">
       </div>
-      <div class="container">
+      <div class="container mb-3">
         <label for="addresses">Endereco</label>
-        <input type="text" name="enterAddress" id="addresses" required maxlength="11">
+        <input class="form-control" type="text" name="enterAddress" id="addresses" required maxlength="11">
       </div>
-      <div class="container">
+      <div class="container mb-3">
         <label for="cities">Cidade</label>
-        <input type="text" name="enterCity" id="cities" required maxlength="28">
+        <input class="form-control" type="text" name="enterCity" id="cities" required maxlength="28">
       </div>
-      <div class="container">
+      <div class="container mb-3">
         <label for="states">Estados</label>
-        <select name="enterStates" id="states">
+        <select class="form-select" name="enterStates" id="states">
         <option value=""></option>
       </select>
       </div>
-      <div class="container">
-        <label for="house">Casa</label>
-        <input type="radio" name="enterType" id="house" required></input>
-        <label for="apartment">Apartamento</label>
-        <input type="radio" name="enterType" id="apartment" required></input>
+      <div class="container form-check mb-3">
+        <input class="form-check-input" type="radio" name="enterType" id="house" required></input>
+        <label class="form-check-label" for="house">Casa</label>
       </div>
-      <div class="container">
+      <div class="container form-check mb-3">
+        <input class="form-check-input" type="radio" name="enterType" id="apartment" required></input>
+        <label class="form-check-label" for="apartment">Apartamento</label>
+      </div>
+      <div class="container mb-3">
         <label for="resume">Resumo do Curriculo</label>
-        <textarea name="resume" id="resume" rows="5" maxlength="1000" required></textarea>
+        <textarea class="form-control" name="resume" id="resume" rows="5" maxlength="1000" required></textarea>
       </div>
-      <div class="container">
+      <div class="container mb-3">
         <label for="position">Cargo</label>
-        <input type="text" name="position" id="position" maxlength="40">
+        <input class="form-control" type="text" name="position" id="position" maxlength="40">
       </div>
-      <div class="container">
+      <div class="container mb-3">
         <label for="positionDescription">Descricao do Cargo</label>
-        <input type="text" name="positionDescription" id="positionDescription" maxlength="500">
+        <input class="form-control" type="text" name="positionDescription" id="positionDescription" maxlength="500">
       </div>
-      <div class="container">
+      <div class="container mb-3">
         <label for="date">Data de Inicio</label>
-        <input type="text" name="enterDate" id="date" maxlength="40">
+        <input class="form-control" type="text" name="enterDate" id="date" maxlength="40">
       </div>
-      <div class="container">
-        <input class="button-submit" type="submit" value="testando">
+      <div class="container mb-3">
+        <input class="button-submit btn btn-success" type="submit" value="testando">
       </div>
 </form>
 
