@@ -10,4 +10,34 @@ function CreateStateOptions(array){
     createState.value = array[i];
   }
 }
-CreateStateOptions(estados);
+
+function nameValidation (){
+  let name = document.querySelector('[name = enterName');
+  if(name.value.length > 40 || name.value.length === 0){
+    alert('Nome invalido');
+  }
+}
+
+function emailValidation(){
+  let email = document.querySelector('[name = enterEmail]')
+  if (email.value.length > 50 || email.value.length === 0){
+    alert('Email invalido');
+  }
+}
+
+function handleSubmition (event){
+  event.preventDefault();
+
+  // valida nome
+  nameValidation();
+  // valida email
+  emailValidation();
+}
+
+window.onload = function (){
+  CreateStateOptions(estados);
+  
+  
+  let getButton = document.querySelector('.button-submit')
+  getButton.addEventListener('click', handleSubmition);
+}
