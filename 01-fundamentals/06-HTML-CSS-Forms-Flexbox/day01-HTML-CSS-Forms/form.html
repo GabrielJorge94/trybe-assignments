@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Form</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <form action="" method="get">
+    <fieldset class="personalData">
+      <legend>Dados pessoais</legend>
+      <div class="containers">
+        <label for="names">Nome</label>
+        <input type="text" name="enterName" id="names" required maxlength="40">
+      </div>
+      <div class="containers">
+        <label for="emails">E-mail</label>
+        <input type="text" name="enterEmail" id="emails" required maxlength="50">
+      </div>
+      <div class="containers">
+        <label for="cpfs">CPF</label>
+        <input type="text" name="enterCPF" id="cpfs" required maxlength="11">
+      </div>
+      <div class="containers">
+        <label for="addresses">Endereco</label>
+        <input type="text" name="enterAddress" id="addresses" required maxlength="11">
+      </div>
+      <div class="containers">
+        <label for="cities">Cidade</label>
+        <input type="text" name="enterCity" id="cities" required maxlength="28">
+      </div><div class="containers">
+        <label for="states">Estados</label>
+        <select name="enterStates" id="states">
+          <option value=""></option>
+        </select>
+      </div>
+      <div class="containers">
+      <label for="house">Casa</label>
+      <input type="radio" name="enterType" id="house" required></input>
+      <label for="apartment">Apartamento</label>
+      <input type="radio" name="enterType" id="apartment" required></input>
+    </div>
+  </fieldset>
+  <fieldset class="lastEmploymentData">
+    <div class="containers">
+      <label for="resume">Resumo do Curriculo</label>
+      <textarea name="resume" id="resume" rows="5" maxlength="1000" required></textarea>
+    </div>
+    <div class="containers">
+      <label for="position">Cargo</label>
+      <input type="text" name="position" id="position" maxlength="40">
+    </div>
+    <div class="containers">
+      <label for="positionDescription">Descricao do Cargo</label>
+      <input type="text" name="positionDescription" id="positionDescription" maxlength="500">
+    </div>
+    <div class="containers">
+      <label for="date">Data de Inicio</label>
+      <input type="text" name="enterDate" id="date" maxlength="40">
+    </div>
+  </fieldset>
+  <input class="button-submit" type="submit" value="testando">
+  </form>
+
+  <script src="script.js"></script>
+</body>
+</html>
