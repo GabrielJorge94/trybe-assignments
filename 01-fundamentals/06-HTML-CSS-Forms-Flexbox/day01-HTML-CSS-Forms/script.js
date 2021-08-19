@@ -25,6 +25,32 @@ function emailValidation(){
   }
 }
 
+function cpfValidation(){
+  let cpf = document.querySelector('[name = enterCPF]');
+  if (cpf.value.length > 50 || cpf.value.length === 0){
+    alert('CPF invalido');
+  }
+}
+function addressValidation(){
+  let address = document.querySelector('[name = enterAddress]');
+  if (address.value.length > 200 || address.value.length === 0){
+    alert('Endereco invalido');
+  }
+}
+function cityValidation(){
+  let city = document.querySelector('[name = enterCity]');
+  if (city.value.length > 28 || city.value.length === 0){
+    alert('Cidade invalida');
+  }
+}
+function StateValidation(){
+  let state = document.querySelectorAll('options.value');
+  if (state.length !== 28){
+    alert('Estado Invalido')
+  }
+}
+
+
 function handleSubmition (event){
   event.preventDefault();
 
@@ -32,6 +58,14 @@ function handleSubmition (event){
   nameValidation();
   // valida email
   emailValidation();
+  // valida CPF
+  cpfValidation();
+  // valida Endereco
+  addressValidation();
+  // valida Cidade
+  cityValidation();
+  // valida estado
+  StateValidation();
 }
 
 window.onload = function (){
