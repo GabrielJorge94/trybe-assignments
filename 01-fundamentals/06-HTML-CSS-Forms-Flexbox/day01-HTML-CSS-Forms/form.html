@@ -1,67 +1,74 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Form</title>
-  <link rel="stylesheet" href="style.css">
+<meta charset="UTF-8">
+<title>Form</title>
+<!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+<link rel="stylesheet" href="../DatePickerX-master/dist/css/DatePickerX.min.css">
+<!-- <link rel="stylesheet" href="style.css"> -->
 </head>
-<body>
-  <form action="" method="get">
-    <fieldset class="personalData">
-      <legend>Dados pessoais</legend>
-      <div class="containers">
+  <body>
+    <form action="" method="get">
+      <div class="container">
+        <h1 class="display-3">Preencha o Forms!!!</h1>
+      </div>
+      <div class="container">
+        <p>Dados pessoais</p></div>
+      <div class="container">
         <label for="names">Nome</label>
         <input type="text" name="enterName" id="names" required maxlength="40">
       </div>
-      <div class="containers">
+        <div class="container">
         <label for="emails">E-mail</label>
         <input type="text" name="enterEmail" id="emails" required maxlength="50">
       </div>
-      <div class="containers">
+        <div class="container">
         <label for="cpfs">CPF</label>
         <input type="text" name="enterCPF" id="cpfs" required maxlength="11">
       </div>
-      <div class="containers">
+      <div class="container">
         <label for="addresses">Endereco</label>
         <input type="text" name="enterAddress" id="addresses" required maxlength="11">
       </div>
-      <div class="containers">
+      <div class="container">
         <label for="cities">Cidade</label>
         <input type="text" name="enterCity" id="cities" required maxlength="28">
-      </div><div class="containers">
+      </div>
+      <div class="container">
         <label for="states">Estados</label>
         <select name="enterStates" id="states">
-          <option value=""></option>
-        </select>
+        <option value=""></option>
+      </select>
       </div>
-      <div class="containers">
-      <label for="house">Casa</label>
-      <input type="radio" name="enterType" id="house" required></input>
-      <label for="apartment">Apartamento</label>
-      <input type="radio" name="enterType" id="apartment" required></input>
-    </div>
-  </fieldset>
-  <fieldset class="lastEmploymentData">
-    <div class="containers">
-      <label for="resume">Resumo do Curriculo</label>
-      <textarea name="resume" id="resume" rows="5" maxlength="1000" required></textarea>
-    </div>
-    <div class="containers">
-      <label for="position">Cargo</label>
-      <input type="text" name="position" id="position" maxlength="40">
-    </div>
-    <div class="containers">
-      <label for="positionDescription">Descricao do Cargo</label>
-      <input type="text" name="positionDescription" id="positionDescription" maxlength="500">
-    </div>
-    <div class="containers">
-      <label for="date">Data de Inicio</label>
-      <input type="text" name="enterDate" id="date" maxlength="40">
-    </div>
-  </fieldset>
-  <input class="button-submit" type="submit" value="testando">
-  </form>
+      <div class="container">
+        <label for="house">Casa</label>
+        <input type="radio" name="enterType" id="house" required></input>
+        <label for="apartment">Apartamento</label>
+        <input type="radio" name="enterType" id="apartment" required></input>
+      </div>
+      <div class="container">
+        <label for="resume">Resumo do Curriculo</label>
+        <textarea name="resume" id="resume" rows="5" maxlength="1000" required></textarea>
+      </div>
+      <div class="container">
+        <label for="position">Cargo</label>
+        <input type="text" name="position" id="position" maxlength="40">
+      </div>
+      <div class="container">
+        <label for="positionDescription">Descricao do Cargo</label>
+        <input type="text" name="positionDescription" id="positionDescription" maxlength="500">
+      </div>
+      <div class="container">
+        <label for="date">Data de Inicio</label>
+        <input type="text" name="enterDate" id="date" maxlength="40">
+      </div>
+      <div class="container">
+        <input class="button-submit" type="submit" value="testando">
+      </div>
+</form>
 
-  <script src="script.js"></script>
+<script src="../DatePickerX-master/dist/js/DatePickerX.min.js"></script>
+<script src="script.js"></script>
 </body>
 </html>
