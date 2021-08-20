@@ -71,6 +71,10 @@ function handleSubmition (event){
 window.onload = function (){
   CreateStateOptions(estados);
   
+  document.getElementById('date').DatePickerX.init({
+    format : 'dd/mm/yyyy',
+    mondayFirst: false,
+  });
   
   let getButton = document.querySelector('.button-submit')
   getButton.addEventListener('click', handleSubmition);
