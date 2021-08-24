@@ -54,32 +54,32 @@ The main technical stacks studied are JavaScript, HTML, CSS, React, Node, Expres
 
 :ballot_box_with_check: 5-2: _JavaScript - Working with elements_
 
-:black_large_square: 5-3: _JavaScript - Events_
+:ballot_box_with_check: 5-3: _JavaScript - Events_
 
-:black_large_square:  5-4: _JavaScript - Web Storage_
+:ballot_box_with_check:  5-4: _JavaScript - Web Storage_
 
-:black_large_square: 5.5: _Project: Pixal art_
+:ballot_box_with_check: 5.5: _Project: Pixal art_
 
-:black_large_square: 5-6: _Project - To Do List_
+:ballot_box_with_check: 5-6: _Project - To Do List_
 
-:black_large_square: 5-7: _Bonus Project - Meme Generator_
+:ballot_box_with_check: 5-7: _Bonus Project - Meme Generator_
 
-:black_large_square: 5-7: _Bonus Project - Guess the Colour_
+:ballot_box_with_check: 5-7: _Bonus Project - Guess the Colour_
 
-:black_large_square: 5-7: _Bonus Project - Mysterious Card_
+:ballot_box_with_check: 5-7: _Bonus Project - Mysterious Card_
 
 
 ### Unit 6: HTML & CSS Advanced
 
-:black_large_square: 6-1: _HTML & CSS - Forms_
+:ballot_box_with_check: 6-1: _HTML & CSS - Forms_
 
-:black_large_square: 6-2: _JavaScript libraries and CSS Frameworks_
+:ballot_box_with_check: 6-2: _JavaScript libraries and CSS Frameworks_
 
-:black_large_square: 6-3: _CSS Flexbox - Part 1_
+:ballot_box_with_check: 6-3: _CSS Flexbox - Part 1_
 
-:black_large_square: 6-4: _CSS Flexbox - Part 2_
+:ballot_box_with_check: 6-4: _CSS Flexbox - Part 2_
 
-:black_large_square: 6-5: _CSS Responsive - Mobile First_
+:ballot_box_with_check: 6-5: _CSS Responsive - Mobile First_
 
 :black_large_square: 6-6: _Project - Trybewarts_
 
