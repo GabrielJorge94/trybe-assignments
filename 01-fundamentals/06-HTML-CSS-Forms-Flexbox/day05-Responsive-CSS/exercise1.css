@@ -11,10 +11,28 @@ h2 {
 }
 
 img {
-    max-width: 100%;
-    margin-top: 20px;
+  max-width: 100%;
+  margin-top: 0 25px;
+}
+
+.images{
+  display: flex;
+  flex-direction: column;
 }
 
 figure {
     margin: 0;
+}
+
+@media screen and (min-width: 800px) {
+  *{
+    background-color: green;
+    font-size: 22px;
+  }
+  .images{
+    flex-wrap: wrap;
+    height: 1450px;
+    align-items: center;
+    align-content:space-around;
+  }
 }
