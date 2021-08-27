@@ -38,3 +38,13 @@ const longestWord = (phrase) => {
   return getBiggerWord
 }
 // console.log(longestWord("Antônio foi no banheiro e não sabemos o que aconteceu"));
+// part 2 - 3
+
+const getButton = document.getElementById('button');
+const getP = document.getElementById('click-counter');
+let clickCount = 0;
+const countClicks = () => {
+  clickCount += 1;
+  getP.innerHTML = `O botao foi clickado ${clickCount} vezes`;
+}
+getButton.addEventListener('click', countClicks);
