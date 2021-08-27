@@ -37,17 +37,17 @@ const longestWord = (phrase) => {
   const getBiggerWord = getWords.sort((a,b) => b.length-a.length)[0];
   return getBiggerWord
 }
-// console.log(longestWord("Antônio foi no banheiro e não sabemos o que aconteceu"));
+console.log(longestWord("Antônio foi no banheiro e não sabemos o que aconteceu"));
 // part 2 - 3
 
-// const getButton = document.getElementById('button');
-// const getP = document.getElementById('click-counter');
-// let clickCount = 0;
-// const countClicks = () => {
-//   clickCount += 1;
-//   getP.innerHTML = `O botao foi clickado ${clickCount} vezes`;
-// }
-// getButton.addEventListener('click', countClicks);
+const getButton = document.getElementById('button');
+const getP = document.getElementById('click-counter');
+let clickCount = 0;
+const countClicks = () => {
+  clickCount += 1;
+  getP.innerHTML = `O botao foi clickado ${clickCount} vezes`;
+}
+getButton.addEventListener('click', countClicks);
 
 // part 2 - 4
 const skills = ['HTML', 'CSS', 'JavaScript', 'GitHub', '#GoTrybe'];
@@ -56,6 +56,3 @@ const findX = (string, parametro2) => {
   return `${getX} Minhas cinco principais habilidades são: ${skills}`;
 }
 console.log(findX('Tryber x aqui!', 'Gabriel'));
-
-
-// console.log(`${findX('Tryber x aqui!', 'Gabriel')} Minhas cinco principais habilidades são: ${skills}`);
