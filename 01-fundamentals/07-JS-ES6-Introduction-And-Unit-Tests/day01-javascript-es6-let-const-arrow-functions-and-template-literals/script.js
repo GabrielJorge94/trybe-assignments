@@ -33,7 +33,8 @@ const factoral = (number) => {
 // part 2 - 2
 // longestWord("Antônio foi no banheiro e não sabemos o que aconteceu") // retorna 'aconteceu'
 const longestWord = (phrase) => {
-  const get = phrase.split(' ');
-  console.log(get);
+  const getWords = phrase.split(' ');
+  const getBiggerWord = getWords.sort((a,b) => b.length-a.length)[0];
+  return getBiggerWord
 }
-longestWord("Antônio foi no banheiro e não sabemos o que aconteceu");
+// console.log(longestWord("Antônio foi no banheiro e não sabemos o que aconteceu"));
