@@ -40,11 +40,18 @@ const longestWord = (phrase) => {
 // console.log(longestWord("Antônio foi no banheiro e não sabemos o que aconteceu"));
 // part 2 - 3
 
-const getButton = document.getElementById('button');
-const getP = document.getElementById('click-counter');
-let clickCount = 0;
-const countClicks = () => {
-  clickCount += 1;
-  getP.innerHTML = `O botao foi clickado ${clickCount} vezes`;
+// const getButton = document.getElementById('button');
+// const getP = document.getElementById('click-counter');
+// let clickCount = 0;
+// const countClicks = () => {
+//   clickCount += 1;
+//   getP.innerHTML = `O botao foi clickado ${clickCount} vezes`;
+// }
+// getButton.addEventListener('click', countClicks);
+
+// part 2 - 4
+const findX = (string, parametro2) => {
+  let getX = string.replace('x',parametro2);
+  console.log(getX);
 }
-getButton.addEventListener('click', countClicks);
+findX('Tryber x aqui!', 'bebeto');
