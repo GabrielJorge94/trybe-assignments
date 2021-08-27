@@ -50,8 +50,12 @@ const longestWord = (phrase) => {
 // getButton.addEventListener('click', countClicks);
 
 // part 2 - 4
+const skills = ['HTML', 'CSS', 'JavaScript', 'GitHub', '#GoTrybe'];
 const findX = (string, parametro2) => {
   let getX = string.replace('x',parametro2);
-  console.log(getX);
+  return `${getX} Minhas cinco principais habilidades são: ${skills}`;
 }
-findX('Tryber x aqui!', 'bebeto');
+console.log(findX('Tryber x aqui!', 'Gabriel'));
+
+
+// console.log(`${findX('Tryber x aqui!', 'Gabriel')} Minhas cinco principais habilidades são: ${skills}`);
