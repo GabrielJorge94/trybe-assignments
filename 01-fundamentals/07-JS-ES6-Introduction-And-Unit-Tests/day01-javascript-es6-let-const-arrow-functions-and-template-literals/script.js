@@ -21,12 +21,10 @@ oddsAndEvens.sort((a, b) => a - b);
 
 // part 2 - 1
 const factoral = (number) => {
-  let resultado = number;
-  for (let i = 1; i < number; i += 1) {
-    resultado *= i;
+  let x = (number === 0 ? 1 : (number*(factoral(number-1))));
+  return x;
   }
-  return resultado
-}
+console.log(factoral(5));
 
 // console.log(factoral(5));
 
