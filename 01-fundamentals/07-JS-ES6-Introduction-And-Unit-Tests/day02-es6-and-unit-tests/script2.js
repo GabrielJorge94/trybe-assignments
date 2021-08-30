@@ -34,4 +34,8 @@ listValues(lesson3);
 
 const allLessons = Object.assign({}, { lesson1, lesson2, lesson3 });
 lesson2.turno = 'noite';
-console.log(allLessons);
+
+
+const studentsSum = () => {
+  return lesson1.numeroEstudantes + lesson2.numeroEstudantes + lesson3.numeroEstudantes
+};
