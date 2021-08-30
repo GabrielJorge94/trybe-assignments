@@ -39,3 +39,7 @@ lesson2.turno = 'noite';
 const studentsSum = () => {
   return lesson1.numeroEstudantes + lesson2.numeroEstudantes + lesson3.numeroEstudantes
 };
+
+const getValueByNumber = (objeto, posicao) => {
+  return Object.values(objeto)[posicao];
+}
