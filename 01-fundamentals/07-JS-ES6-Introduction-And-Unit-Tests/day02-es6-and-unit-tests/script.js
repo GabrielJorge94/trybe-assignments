@@ -42,17 +42,22 @@ const phoneNumber = Object.values(order)[1];
 const costumerStreet = Object.values(order.address)[0];
 const costumerNumber = Object.values(order.address)[1];
 const costumerApartment = Object.values(order.address)[2];
+const pizza1 = Object.keys(order.order.pizza)[0];
+const pizza2 = Object.keys(order.order.pizza)[1];
+const drink = Object.values(order.order.drinks.coke)[0];
+const price = Object.values(order.payment);
 
 
 const customerInfo = (order) => {
   return `Ola ${deliveryPerson}, entrega para: ${costumerName}, Telefone: ${phoneNumber}, ${costumerStreet}, N: ${costumerNumber}, AP: ${costumerApartment}` 
 }
 
-console.log(customerInfo(order));
+// console.log(customerInfo(order));
 
 const orderModifier = (order) => {
-  // Adicione abaixo as informações necessárias.
-
+  order.name = 'Luiz Silva'
+  order.payment = '50,00'
+  return `Ola ${order.name}, o total do seu pedido de ${pizza1}, ${pizza2} e ${drink} é R$ ${order.payment}`
 }
 
-orderModifier(order);
+console.log(orderModifier(order));
