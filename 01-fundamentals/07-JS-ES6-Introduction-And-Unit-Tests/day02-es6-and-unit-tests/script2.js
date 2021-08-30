@@ -23,6 +23,15 @@ const addMorning = (objeto, chave, valor) => objeto[chave] = valor;
 addMorning(lesson2, 'turno', 'manhã');
 
 const listKeys = (objeto) => Object.keys(objeto);
+listKeys(lesson2);
 
 const objectLength = (objeto) => Object.entries(objeto).length;
-console.log(objectLength(lesson1));
+objectLength(lesson1);
+
+const listValues = (objeto) => Object.values(objeto);
+listValues(lesson3);
+
+
+const allLessons = Object.assign({}, { lesson1, lesson2, lesson3 });
+lesson2.turno = 'noite';
+console.log(allLessons);
