@@ -45,4 +45,16 @@ const getValueByNumber = (objeto, posicao) => {
 }
 
 const verifyPair = (object, key, value) => (object[key] === value)? true: false
-console.log(verifyPair(lesson3, 'turno', 'manha'));
+// console.log(verifyPair(lesson3, 'turno', 'noite'));
+
+const mathStudents = (obj) => {
+  let students = 0;
+  const array = Object.keys(obj);
+  for (let index in array){
+    if(obj[array[index]].materia === 'Matemática'){
+      students += obj[array[index]].numeroEstudantes;
+    }
+  }
+  return students;
+}
+console.log(mathStudents(allLessons));
