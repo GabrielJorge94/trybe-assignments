@@ -42,8 +42,8 @@ assert.deepStrictEqual(expected3, [1,2,4], 'retorna o array sem o item');
 assert.notDeepStrictEqual(expected3, [1,2,3,4], 'nao retorna o array com o item');
 
 const myList = [5, 6, 7, 8];
-const myListRemoved = myRemove(myList);
-assert.deepStrictEqual(myListRemoved, [5, 6, 7, 8], 'erro');
+myRemove(myList, 5);
+assert.deepStrictEqual(myList, [5, 6, 7, 8]);
 
 const expected4 = myRemove([1,2,3,4], 5);
 assert.deepStrictEqual(expected4, [1,2,3,4], 'retorna o array esperado');
