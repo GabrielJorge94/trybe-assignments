@@ -43,3 +43,6 @@ const studentsSum = () => {
 const getValueByNumber = (objeto, posicao) => {
   return Object.values(objeto)[posicao];
 }
+
+const verifyPair = (object, key, value) => (object[key] === value)? true: false
+console.log(verifyPair(lesson3, 'turno', 'manha'));
