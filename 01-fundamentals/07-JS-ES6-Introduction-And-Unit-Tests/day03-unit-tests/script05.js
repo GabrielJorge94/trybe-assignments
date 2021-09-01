@@ -16,4 +16,4 @@ const obj3 = {
 };
 // Compare dois objetos para verificar se são idênticos ou não
 assert.deepStrictEqual(obj1, obj2 , 'objetos sao iguais');
-assert.notDeepStrictEqual(obj1, obj3 , 'objetos sao iguais');
+assert.notDeepStrictEqual(obj1, obj3 , 'objetos sao iguais'); 
