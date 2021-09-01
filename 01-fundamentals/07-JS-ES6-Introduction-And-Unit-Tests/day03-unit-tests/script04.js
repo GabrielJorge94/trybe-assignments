@@ -20,3 +20,6 @@ assert.strictEqual(expected2, 'buzz', 'deve retornar buzz');
 // Faça uma chamada com um número que não é divisível por 3 ou 5 e verifique se o retorno é o esperado
 const expected3 = myFizzBuzz(7);
 assert.strictEqual(expected3, 7, 'deve retornar o proprio numero');
+// Faça uma chamada com um parâmetro que não é um número e verifique se o retorno é o esperado
+const expected4 = myFizzBuzz('string');
+assert.strictEqual(expected4, false, 'deve retornar false');
