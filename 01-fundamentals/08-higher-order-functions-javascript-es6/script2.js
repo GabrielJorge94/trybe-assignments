@@ -1,7 +1,5 @@
 const newDraw = (number, func) => {
   let numbers = Math.floor(Math.random() * (5 - 1) + 1);
-  console.log(number);
-  console.log(numbers);
   return callback(numbers, number);
 }
 
