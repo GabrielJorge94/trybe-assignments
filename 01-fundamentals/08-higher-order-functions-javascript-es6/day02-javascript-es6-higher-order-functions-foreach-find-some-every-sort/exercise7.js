@@ -37,7 +37,7 @@ const books = [
     genre: 'Ficção Científica',
     author: {
       name: 'Frank Herbert',
-      birthYear: 1922,
+      birthYear: 1920,
     },
     releaseYear: 1965,
   },
@@ -73,8 +73,5 @@ function authorUnique() {
   (book2.author.birthYear === book.author.birthYear)
   && (book2.author.name !== book.author.name)))
 }
-
-console.log(authorUnique());
-
 
 assert.strictEqual(authorUnique(), expectedResult);
