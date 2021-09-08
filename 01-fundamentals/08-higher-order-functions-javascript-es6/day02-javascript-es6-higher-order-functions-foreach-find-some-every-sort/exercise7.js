@@ -74,4 +74,6 @@ function authorUnique() {
   && (book2.author.name !== book.author.name)))
 }
 
+console.log(authorUnique(books));
+
 assert.strictEqual(authorUnique(), expectedResult);
