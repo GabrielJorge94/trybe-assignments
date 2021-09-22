@@ -28,11 +28,11 @@ describe('faça um teste que verifique o resultado da função getUserName para 
   });
 });
 
-describe('faça um teste que verifique o resultado da função getUserName para o caso em que o usuário nao é encontrado', ()=>{
-  it('verifica o resultado da função getUserName para o caso em que o usuário nao é encontrado', () =>{
+describe('faça um teste que verifique o resultado da função getUserName para o caso em que o usuário nao é encontrado', () => {
+  it('verifica o resultado da função getUserName para o caso em que o usuário nao é encontrado', () => {
     expect.assertions(1);
     return getUserName(3).catch((error) => {
-      expect(error.message).toMatch('User with id 3 not found.')
-    })
-  })
-})
+      expect(error.message).toMatch('User with id 3 not found.');
+    });
+  });
+});
