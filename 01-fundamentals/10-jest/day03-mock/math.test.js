@@ -36,7 +36,7 @@ test('Faça o mock da função somar e implemente uma função que recebe dois v
 
 // Faça o mock da função dividir e implemente um retorno padrão com o valor '15'. Implemente também os seguintes valores para a primeira e segunda chamadas: '2' e '5'. Teste a chamada, o retorno, os parâmetros e quantas vezes a função foi chamada.
 
-test('', () => {
+test('Faça o mock da função dividir e implemente um retorno padrão com o valor 15. Implemente também os seguintes valores para a primeira e segunda chamadas: 2 e 5', () => {
   const mockDividir = jest.spyOn(math, 'dividir');
   mockDividir.mockReturnValue(15);
   mockDividir.mockReturnValueOnce(2);
@@ -55,3 +55,15 @@ test('', () => {
   expect(mockDividir).toHaveBeenCalledTimes(3);
   expect(mockDividir).toHaveBeenCalledWith(30, 2);
 });
+
+// Faça o mock da função subtrair de maneira que seja possível restaurar sua implementação original. Defina como retorno padrão o valor '20'. Teste o número de chamadas e o retorno. Restaure a implementação original da função e teste sua execução.
+
+test('Faça o mock da função subtrair de maneira que seja possível restaurar sua implementação original. Defina como retorno padrão o valor 20.', () => {
+  const mockSubtrair = jest.spyOn(math, 'subtrair');
+  mockSubtrair.mockReturnValue(20);
+
+  expect(mockSubtrair(40, 20)).toBe(20);
+  expect(mockSubtrair).toHaveBeenCalled();
+  expect(mockSubtrair).toHaveBeenCalledTimes(1);
+  expect(mockSubtrair).toHaveBeenCalledWith(40,20);
+})
