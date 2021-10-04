@@ -1,25 +1,16 @@
-import logo from './logo.svg';
 import './App.css';
+// Crie uma lista de tarefas simples seguindo os passos abaixo:
 
-function App() {
+const Task = (value) => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <li>{value}</li>
   );
+}
+
+// por fim, crie uma array de compromissos e use a função map para que cada item do array apareça, como um item de lista, no seu componente App .
+function App() {
+  const tasks = ['aula', 'exercício', 'mentoria','repete']
+  return (tasks.map(task => Task(task)));
 }
 
 export default App;
