@@ -22,14 +22,15 @@ text-align: center;
 }
 
 .card{
-  background-color: rgb(52, 150, 14);
-  border-radius: 8px;
+  background-color: rgb(69, 197, 18);
+  border-radius: 5px;
   display:flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   color: rgb(39, 35, 35);
-}
+  padding: 15px
+} 
 
 .footer {
   text-align: center;
