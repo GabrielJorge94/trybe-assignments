@@ -1,12 +1,17 @@
 * {
   font-family: Helvetica, sans-serif;
-  font-size: 14px;
   margin: 0;
+  color: #333;
   box-sizing: border-box;
+}
+
+body{
+background-color: #ECF6F8;
 }
 
 .header-title {
   padding: 30px;
+  font-size: 30px;
 }
 
 .container {
@@ -18,7 +23,7 @@
 .pokemon-container {
   display: flex;
   flex-direction: column;
-  gap: 10px;
+  gap: 15px;
 }
 
 .poke-card {
@@ -26,10 +31,12 @@
   flex-direction: row;
   align-items: center;
   justify-content: space-evenly;
-  background-color: rgb(102, 147, 189);
+  background-color: #9BE0E9;
   border-radius: 5px;
   padding: 10px;
+  font-size: 14px;
   line-height: 1.6;
+  box-shadow: 0px 3px 5px 4px rgba(100,161,165,0.63);
 }
 
 @media screen and (min-width: 768px) {
