@@ -113,7 +113,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 :ballot_box_with_check: 8-5: _Projeto - Zoo functions_
 
 
-### Bloco 9: Javascript Assíncrono e Promises
+### Bloco 9: Javascript Assíncrono e Promises & Testes automatizados com Jest
 
 :ballot_box_with_check: 9-1: _JavaScript Assíncrono e Callbacks_
 
@@ -121,309 +121,306 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 
 :ballot_box_with_check: 9-3: _Projeto - Carrinho de Compras_
 
+:ballot_box_with_check: 9-1: _Primeiros passos no Jest_
 
-### Bloco 10: Testes automatizados com Jest
+:ballot_box_with_check: 9-2: _Jest - Testes Assíncronos_
 
-:ballot_box_with_check: 10-1: _Primeiros passos no Jest_
+:ballot_box_with_check: 9-3: _Jest - Simulando comportamentos_
 
-:ballot_box_with_check: 10-2: _Jest - Testes Assíncronos_
-
-:ballot_box_with_check: 10-3: _Jest - Simulando comportamentos_
-
-:ballot_box_with_check: 10-4: _Projeto - Jest Assíncrono e Mocking_
+:ballot_box_with_check: 9-4: _Projeto - Jest Assíncrono e Mocking_
 
   
 ## Desenvolvimento Front-end :hourglass_flowing_sand:
 
 
-### Bloco 11: Introdução - React
+### Bloco 10: Introdução - React
 
-:black_large_square: 11-1: _'Hello, world!' no React!_
+:ballot_box_with_check: 10-1: _'Hello, world!' no React!_
 
-:black_large_square: 11-2: _Componentes React_
+:ballot_box_with_check: 10-2: _Componentes React_
 
-:black_large_square: 11-3: _Projeto - Movie Cards Library_
+:black_large_square: 10-3: _Projeto - Movie Cards Library_
 
  
-### Bloco 12: Componentes com Estado, Eventos e Formulários com React
+### Bloco 11: Componentes com Estado, Eventos e Formulários com React
 
-:black_large_square: 12-1: _Components com estado e eventos_
+:black_large_square: 11-1: _Components com estado e eventos_
 
-:black_large_square: 12-2: _Formulários no React_
-:black_large_square: 12-3: _Projeto - Movie Cards Library Stateful_
+:black_large_square: 11-2: _Formulários no React_
+:black_large_square: 11-3: _Projeto - Movie Cards Library Stateful_
 
-### Bloco 13: Ciclo de Vida de Componentes e React Router
+### Bloco 12: Ciclo de Vida de Componentes e React Router
 
-:black_large_square: 13-1: _Ciclo de vida de componentes_
-:black_large_square: 13-2: _React Router_
+:black_large_square: 12-1: _Ciclo de vida de componentes_
+:black_large_square: 12-2: _React Router_
 
-:black_large_square: 13-3: _Projeto - Movie Cards Library CRUD_
-
-
-### Bloco 14: Metodologias ágeis
-
-:black_large_square: 14-1: _Metodologias ágeis_
-
-:black_large_square: 14-2: _Projeto - Frontend Online Store_
-
-### Bloco 15: Testes automatizados com React Testing Library
-
-:black_large_square: 15-1: _RTL - Primeiros Passos_
-
-:black_large_square: 15-2: _RTL - Mocks e Inputs_
-
-:black_large_square: 15-2: _RTL: Testando com React Router_
-
-:black_large_square: 15-3: _Projeto - Testes em React_
+:black_large_square: 12-3: _Projeto - Movie Cards Library CRUD_
 
 
-### Bloco 16: Introdução ao Redux
+### Bloco 13: Metodologias ágeis
 
-:black_large_square: 16-1: _Introdução ao Redux - O estado global da aplicação_
+:black_large_square: 13-1: _Metodologias ágeis_
 
-:black_large_square: 16-2: _Usando o Redux no React_
+:black_large_square: 13-2: _Projeto - Frontend Online Store_
 
-:black_large_square: 16-3: _Usando o Redux no React - Prática_
+### Bloco 14: Testes automatizados com React Testing Library
 
-:black_large_square: 16-4: _Usando o Redux no React - Actions Assíncronas_
+:black_large_square: 14-1: _RTL - Primeiros Passos_
 
-:black_large_square: 16-5: _Testes em React-Redux_
+:black_large_square: 14-2: _RTL - Mocks e Inputs_
 
-:black_large_square:16-6: _Projeto - Trybe Wallet_
+:black_large_square: 14-2: _RTL: Testando com React Router_
+
+:black_large_square: 14-3: _Projeto - Testes em React_
+
+
+### Bloco 15: Introdução ao Redux
+
+:black_large_square: 15-1: _Introdução ao Redux - O estado global da aplicação_
+
+:black_large_square: 15-2: _Usando o Redux no React_
+
+:black_large_square: 15-3: _Usando o Redux no React - Prática_
+
+:black_large_square: 15-4: _Usando o Redux no React - Actions Assíncronas_
+
+:black_large_square: 15-5: _Testes em React-Redux_
+
+:black_large_square:15-6: _Projeto - Trybe Wallet_
   
 
-### Bloco 17: Projeto React
+### Bloco 16: Projeto React
 
-:black_large_square: 17-1: _Projeto - Jogo de Trivia_
-
-
-### Bloco 18: Context API & Reack Hooks
-
-:black_large_square: 18-1: _Context API do React_
-
-:black_large_square: 18-2: _React Hooks - useState e useContext_
-
-:black_large_square: 18-3: _React Hooks - useEffect e Hooks customizados_
-
-:black_large_square: 18-4: _Projeto - StarWars Datatable com Context API e Hooks_
+:black_large_square: 16-1: _Projeto - Jogo de Trivia_
 
 
-### Bloco 19: Projeto Final de Front-end
+### Bloco 17: Context API & Reack Hooks
 
-:black_large_square: 19-1: _Projeto - App de Receitas_
+:black_large_square: 17-1: _Context API do React_
+
+:black_large_square: 17-2: _React Hooks - useState e useContext_
+
+:black_large_square: 17-3: _React Hooks - useEffect e Hooks customizados_
+
+:black_large_square: 17-4: _Projeto - StarWars Datatable com Context API e Hooks_
+
+
+### Bloco 18: Projeto Final de Front-end
+
+:black_large_square: 18-1: _Projeto - App de Receitas_
 
 
 ## Desenvolvimento Back-end :hourglass_flowing_sand:
 
 
-### Bloco 20: Introdução - SQL
+### Bloco 19: Introdução - SQL
 
-:black_large_square: 20-1: _Banco de dados SQL_
+:black_large_square: 19-1: _Banco de dados SQL_
 
-:black_large_square: 20-2: _Encontrando dados em um banco de dados_
+:black_large_square: 19-2: _Encontrando dados em um banco de dados_
 
-:black_large_square: 20-3: _Filtrando dados de forma especí­fica_
+:black_large_square: 19-3: _Filtrando dados de forma especí­fica_
 
-:black_large_square: 20-4: _Manipulando tabelas_
+:black_large_square: 19-4: _Manipulando tabelas_
 
-:black_large_square: 20-5: _Projeto - All For One_
-
- 
-### Bloco 21: Funções SQL, Joins e Subqueries
-
-:black_large_square: 21-1: _Funções mais usadas no SQL_
-
-:black_large_square: 21-2: _Descomplicando JOINs, UNIONs e Subqueries_
-
-:black_large_square: 21-3: _Stored Routines & Stored Functions_
-
-:black_large_square: 21-4: _Projeto - Vocabulary Booster_
-
-
-### Bloco 22: Normalização e Modelagem de Banco de Dados
-
-:black_large_square: 22-1: _Transformando ideias em um modelo de banco de dados - Parte 1_
-
-:black_large_square: 22-2: _Normalização, Formas Normais e Dumps_
-
-:black_large_square: 22-2: _Transformando ideias em um modelo de banco de dados - Parte 2_
-
-:black_large_square: 22-3: _Projeto - One For All_
+:black_large_square: 19-5: _Projeto - All For One_
 
  
-### Bloco 23: Introdução - MongoDB
+### Bloco 20: Funções SQL, Joins e Subqueries
 
-:black_large_square: 23-1: _Introdução NoSQL e MongoDB_
+:black_large_square: 20-1: _Funções mais usadas no SQL_
 
-:black_large_square: 23-2: _Filter Operators_
+:black_large_square: 20-2: _Descomplicando JOINs, UNIONs e Subqueries_
 
-:black_large_square: 23-3: _Projeto - Data Flights_
+:black_large_square: 20-3: _Stored Routines & Stored Functions_
+
+:black_large_square: 20-4: _Projeto - Vocabulary Booster_
 
 
-### Bloco 24: MongoDB: Updates simples e complexos
+### Bloco 21: Normalização e Modelagem de Banco de Dados
 
-:black_large_square: 24-1: _Updates Simples_
+:black_large_square: 21-1: _Transformando ideias em um modelo de banco de dados - Parte 1_
 
-:black_large_square: 24-2: _Updates Complexos - Arrays - Parte 1_
+:black_large_square: 21-2: _Normalização, Formas Normais e Dumps_
 
-:black_large_square: 24-3: _Updates Complexos - Arrays - Parte 2_
+:black_large_square: 21-2: _Transformando ideias em um modelo de banco de dados - Parte 2_
 
-:black_large_square: 24-4: _Projeto - Commerce_
+:black_large_square: 21-3: _Projeto - One For All_
+
+ 
+### Bloco 22: Introdução - MongoDB
+
+:black_large_square: 22-1: _Introdução NoSQL e MongoDB_
+
+:black_large_square: 22-2: _Filter Operators_
+
+:black_large_square: 22-3: _Projeto - Data Flights_
+
+
+### Bloco 23: MongoDB: Updates simples e complexos
+
+:black_large_square: 23-1: _Updates Simples_
+
+:black_large_square: 23-2: _Updates Complexos - Arrays - Parte 1_
+
+:black_large_square: 23-3: _Updates Complexos - Arrays - Parte 2_
+
+:black_large_square: 23-4: _Projeto - Commerce_
 
   
-### Bloco 25: MongoDB: Aggregation Framework
+### Bloco 24: MongoDB: Aggregation Framework
 
-:black_large_square: 25-1: _Aggregation Framework - Part 1_
+:black_large_square: 24-1: _Aggregation Framework - Part 1_
 
-:black_large_square: 25-2: _Aggregation Framework - Part 2_
+:black_large_square: 24-2: _Aggregation Framework - Part 2_
 
-:black_large_square: 25-3: _Projeto - Aggregations_
+:black_large_square: 24-3: _Projeto - Aggregations_
  
-### Bloco 26: Introdução - NodeJS
+### Bloco 25: Introdução - NodeJS
 
-:black_large_square: 26-1: _NodeJS - Introdução_
+:black_large_square: 25-1: _NodeJS - Introdução_
 
-:black_large_square: 26-2: _NodeJS - Fluxo Assí­ncrono_
+:black_large_square: 25-25: _NodeJS - Fluxo Assí­ncrono_
 
-:black_large_square: 26-3: _Testes com NodeJS_
+:black_large_square: 25-3: _Testes com NodeJS_
 
-:black_large_square: 26-4: _Express: HTTP com Node.js_
+:black_large_square: 25-4: _Express: HTTP com Node.js_
 
-:black_large_square: 26-5: _Praticando Express_
+:black_large_square: 25-5: _Praticando Express_
 
-:black_large_square: 26-6: _Projeto - Talker Manager_
+:black_large_square: 25-6: _Projeto - Talker Manager_
 
 
-### Bloco 27: NodeJS: Camada de Serviço e Arquitetura Rest e Restful
+### Bloco 26: NodeJS: Camada de Serviço e Arquitetura Rest e Restful
 
-:black_large_square: 27-1: _Introdução e Camada de Model: Arquitetura de Software_
+:black_large_square: 26-1: _Introdução e Camada de Model: Arquitetura de Software_
 
-:black_large_square: 27-2: _Arquitetura de Software - Camada de Controller e Service_
+:black_large_square: 26-2: _Arquitetura de Software - Camada de Controller e Service_
 
-:black_large_square: 27-3: _Arquitetura Web - Rest e Restful_
+:black_large_square: 26-3: _Arquitetura Web - Rest e Restful_
 
-:black_large_square: 27-4: _Arquitetura de Software - Testando as Camadas_
+:black_large_square: 26-4: _Arquitetura de Software - Testando as Camadas_
 
-:black_large_square: 27-3: _Projeto - Store Manager_
+:black_large_square: 26-3: _Projeto - Store Manager_
 
  
-### Bloco 28: Autenticação e Upload de Arquivos
+### Bloco 27: Autenticação e Upload de Arquivos
 
-:black_large_square: 28-1: _NodeJS - JWT - (JSON Web Token)_
+:black_large_square: 27-1: _NodeJS - JWT - (JSON Web Token)_
 
-:black_large_square: 28-2: _NodeJS - Updolad de arquivos com "multer"_
+:black_large_square: 27-2: _NodeJS - Updolad de arquivos com "multer"_
 
-:black_large_square: 28-3: _Testando APIs com Teste de Integração_
+:black_large_square: 27-3: _Testando APIs com Teste de Integração_
 
-:black_large_square: 28-3: _Projeto - Cookmaster_
-
-
-### Bloco 29: Depoloyment
-
-:black_large_square: 29-1: _Introdução - Deploy_
-
-:black_large_square: 29-1: _Infraestrutura - Deploy com Heroku_
-
-:black_large_square: 29-2: _Gerenciadores de Processos_
-
-:black_large_square: 29-3: _Projeto - Stranger Things_
+:black_large_square: 27-3: _Projeto - Cookmaster_
 
 
-### Bloco 30: Arquitetura: SOLID e ORM
+### Bloco 28: Depoloyment
 
-:black_large_square: 30-1: _Arquitetura - Princípios SOLID_
+:black_large_square: 28-1: _Introdução - Deploy_
 
-:black_large_square: 30-2: _ORM - Interface da aplicação com o banco de dados_
+:black_large_square: 28-1: _Infraestrutura - Deploy com Heroku_
 
-:black_large_square: 30-3: _ORM - Associations_
+:black_large_square: 28-2: _Gerenciadores de Processos_
 
-:black_large_square: 30-4: _Projeto - API de Blogs_
-
-
-### Bloco 31: Sockets
-
-:black_large_square: 31-1: _Arquitetura de Software - Camada de View_
-
-:black_large_square: 31-2: _Sockets - TCP/UDP & NET_
-
-:black_large_square: 31-3: _Sockets - Socket.io_
-
-:black_large_square: 31-4 _Sockets - Praticando Socket.io_
-
-:black_large_square: 31-5: _Projeto - Webchat_
+:black_large_square: 28-3: _Projeto - Stranger Things_
 
 
-### Bloco 32: Projeto
+### Bloco 29: Arquitetura: SOLID e ORM
 
-:black_large_square: 32-1: _Projeto - Trybeer V_
+:black_large_square: 29-1: _Arquitetura - Princípios SOLID_
+
+:black_large_square: 29-2: _ORM - Interface da aplicação com o banco de dados_
+
+:black_large_square: 29-3: _ORM - Associations_
+
+:black_large_square: 29-4: _Projeto - API de Blogs_
+
+
+### Bloco 30: Sockets
+
+:black_large_square: 30-1: _Arquitetura de Software - Camada de View_
+
+:black_large_square: 30-2: _Sockets - TCP/UDP & NET_
+
+:black_large_square: 30-3: _Sockets - Socket.io_
+
+:black_large_square: 30-4 _Sockets - Praticando Socket.io_
+
+:black_large_square: 30-5: _Projeto - Webchat_
+
+
+### Bloco 31: Projeto
+
+:black_large_square: 31-1: _Projeto - Trybeer V_
 
 
 ## Ciência da Computação :hourglass_flowing_sand:
 
  
-### Bloco 33: Introdução - Ciência da Computação
+### Bloco 32: Introdução - Ciência da Computação
 
-:black_large_square:  33-1: _Arquitetura de Computadores_
+:black_large_square:  32-1: _Arquitetura de Computadores_
 
-:black_large_square: 33-2: _Arquitetura de redes_
+:black_large_square: 32-2: _Arquitetura de redes_
 
-:black_large_square: 33-3: _Redes de computadores, ferramentas e segurança_
+:black_large_square: 32-3: _Redes de computadores, ferramentas e segurança_
 
-:black_large_square: 35-4: _Projeto - Explorando os protocolos_
-
-
-### Bloco 34: Introdução - Python e Raspagem de Dados da Web
-
-:black_large_square: 34-1: _Aprendendo Python_
-
-:black_large_square: 34-2: _Entrada e Saída de Dados_
-
-:black_large_square: 34-3: _Raspagem de Dados_
-
-:black_large_square: 34-4: _Testes_
-
-:black_large_square: 34-5: _Projeto - Tech news_
+:black_large_square: 32-4: _Projeto - Explorando os protocolos_
 
 
-### Bloco 35: Programação Orientada a Objetos e Padrões de Projeto
+### Bloco 33: Introdução - Python e Raspagem de Dados da Web
 
-:black_large_square: 35-1: _Introdução - Programação orientada a objetos_
+:black_large_square: 33-1: _Aprendendo Python_
 
-:black_large_square: 35-2: _Herança, Composição e Interfaces_
+:black_large_square: 33-2: _Entrada e Saída de Dados_
 
-:black_large_square: 35-3: _Padrões de projeto_
+:black_large_square: 33-3: _Raspagem de Dados_
 
-:black_large_square: 35-4: _Projeto - Relatórios de Estoque_
+:black_large_square: 33-4: _Testes_
 
-
-### Bloco 36: Algoritmos e Estrutura de Dados
-
-:black_large_square: 36-1: _Complexidade de Algoritmos_
-
-:black_large_square: 36-2: _Recursividade e Estratégias para solução de problemas_
-
-:black_large_square: 36-3: _Algoritmos de ordenação e busca_
-
-:black_large_square: 36-4: _Projeto - Algoritmos_
+:black_large_square: 33-5: _Projeto - Tech news_
 
 
-### Bloco 37: Estrutura de Dados: Hash e Set
+### Bloco 34: Programação Orientada a Objetos e Padrões de Projeto
 
-:black_large_square: 37-1: _Arrays_
+:black_large_square: 34-1: _Introdução - Programação orientada a objetos_
 
-:black_large_square: 37-2: _Hashmap e Dict_
+:black_large_square: 34-2: _Herança, Composição e Interfaces_
 
-:black_large_square: 37-3: _Set_
+:black_large_square: 34-3: _Padrões de projeto_
 
-:black_large_square: 37-3: _Projeto - Restaurant Orders_
+:black_large_square: 34-4: _Projeto - Relatórios de Estoque_
 
 
-### Bloco 38: Estrutura de Dados: Pilhas, Filas e Listas
+### Bloco 35: Algoritmos e Estrutura de Dados
 
-:black_large_square: 38-1: _Nó e Listas Encadeadas_
+:black_large_square: 35-1: _Complexidade de Algoritmos_
 
-:black_large_square: 38-2: _Deque_
+:black_large_square: 35-2: _Recursividade e Estratégias para solução de problemas_
 
-:black_large_square: 38-3: _Pilhas_
+:black_large_square: 35-3: _Algoritmos de ordenação e busca_
 
-:black_large_square: 38-4: _Projeto: TING - Trybe Is Not Google_
+:black_large_square: 35-4: _Projeto - Algoritmos_
+
+
+### Bloco 36: Estrutura de Dados: Hash e Set
+
+:black_large_square: 36-1: _Arrays_
+
+:black_large_square: 36-2: _Hashmap e Dict_
+
+:black_large_square: 36-3: _Set_
+
+:black_large_square: 36-3: _Projeto - Restaurant Orders_
+
+
+### Bloco 37: Estrutura de Dados: Pilhas, Filas e Listas
+
+:black_large_square: 37-1: _Nó e Listas Encadeadas_
+
+:black_large_square: 37-2: _Deque_
+
+:black_large_square: 37-3: _Pilhas_
+
+:black_large_square: 37-4: _Projeto: TING - Trybe Is Not Google_
