@@ -81,53 +81,53 @@ The main technical stacks studied are JavaScript, HTML, CSS, React, Node, Expres
 
 :ballot_box_with_check: 6-5: _CSS Responsive - Mobile First_
 
-:black_large_square: 6-6: _Project - Trybewarts_
+:ballot_box_with_check: 6-6: _Project - Trybewarts_
 
 
 ### Unit 7: JavaScript ES6 & Unit testing
 
-:black_large_square: 7-1: _JavaScript ES6 - let, const, arrow functions and template literals_
+:ballot_box_with_check: 7-1: _JavaScript ES6 - let, const, arrow functions and template literals_
 
-:black_large_square: 7-2: _JavaScript ES6 - Objects_
+:ballot_box_with_check: 7-2: _JavaScript ES6 - Objects_
 
-:black_large_square: 7-3: _Unit testing - JavaScript_
+:ballot_box_with_check: 7-3: _Unit testing - JavaScript_
 
-:black_large_square: 7-4: _Project - JavaScript Unit testing_
+:ballot_box_with_check: 7-4: _Project - JavaScript Unit testing_
 
 
 ### Unit 8: Higher Order Functions do JavaScript ES6
 
-:black_large_square:8-1: _JavaScript ES6 - Introduction to Higher Order Functions_
+:ballot_box_with_check:8-1: _JavaScript ES6 - Introduction to Higher Order Functions_
 
-:black_large_square: 8-2: _JavaScript ES6 - Higher Order Functions - forEach, find, some, every, sort_
+:ballot_box_with_check: 8-2: _JavaScript ES6 - Higher Order Functions - forEach, find, some, every, sort_
 
-:black_large_square: 8-3: _JavaScript ES6 - Higher Order Functions - map and filter_
+:ballot_box_with_check: 8-3: _JavaScript ES6 - Higher Order Functions - map and filter_
 
-:black_large_square: 8-4: _JavaScript ES6 - Higher Order Functions - reduce_
+:ballot_box_with_check: 8-4: _JavaScript ES6 - Higher Order Functions - reduce_
 
-:black_large_square: 8-5: _JavaScript ES6 - spread operator, rest parameter, destructuring and more_
+:ballot_box_with_check: 8-5: _JavaScript ES6 - spread operator, rest parameter, destructuring and more_
 
-:black_large_square: 8-5: _Project - Zoo functions_
+:ballot_box_with_check: 8-5: _Project - Zoo functions_
 
 
 ### Unit 9: Asynchronous Javascript and Promises
 
-:black_large_square: 9-1: _JavaScript Async and Callbacks_
+:ballot_box_with_check: 9-1: _JavaScript Async and Callbacks_
 
-:black_large_square: 9-2: _JavaScript Promises_
+:ballot_box_with_check: 9-2: _JavaScript Promises_
 
-:black_large_square: 9-3: _Project - Shopping Cart_
+:ballot_box_with_check: 9-3: _Project - Shopping Cart_
 
 
 ### Unit 10: Automated Testing using Jest
 
-:black_large_square: 10-1: _First steps with Jest_
+:ballot_box_with_check: 10-1: _First steps with Jest_
 
-:black_large_square: 10-2: _Testing Asynchronous using Jest_
+:ballot_box_with_check: 10-2: _Testing Asynchronous using Jest_
 
-:black_large_square: 10-3: _Jest - Simulating behaviors_
+:ballot_box_with_check: 10-3: _Jest - Simulating behaviors_
 
-:black_large_square: 10-4: _Project - Asynchronous Jest and Mocking_
+:ballot_box_with_check: 10-4: _Project - Asynchronous Jest and Mocking_
 
 ## Front-end development :hourglass_flowing_sand:
 
