@@ -85,52 +85,52 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 
 :ballot_box_with_check: 6-5: _CSS Responsivo - Mobile First_
 
-:black_large_square: 6-6: _Projeto - Trybewarts_
+:ballot_box_with_check: 6-6: _Projeto - Trybewarts_
 
 ### Bloco 7: JavaScript ES6 & Testes Unitários
 
-:black_large_square: 7-1: _JavaScript ES6 - let, const, arrow functions e template literals_
+:ballot_box_with_check: 7-1: _JavaScript ES6 - let, const, arrow functions e template literals_
 
-:black_large_square: 7-2: _JavaScript ES6 - Objects_
+:ballot_box_with_check: 7-2: _JavaScript ES6 - Objects_
 
-:black_large_square: 7-3: _Testes unitários em JavaScript_
+:ballot_box_with_check: 7-3: _Testes unitários em JavaScript_
 
-:black_large_square: 7-4: _Projeto - JavaScript Testes Unitários_
+:ballot_box_with_check: 7-4: _Projeto - JavaScript Testes Unitários_
 
 
 ### Bloco 8: Higher Order Functions do JavaScript ES6
 
-:black_large_square:8-1: _JavaScript ES6 - Introdução Higher Order Functions_
+:ballot_box_with_check:8-1: _JavaScript ES6 - Introdução Higher Order Functions_
 
-:black_large_square: 8-2: _JavaScript ES6 - Higher Order Functions - forEach, find, some, every, sort_
+:ballot_box_with_check: 8-2: _JavaScript ES6 - Higher Order Functions - forEach, find, some, every, sort_
 
-:black_large_square: 8-3: _JavaScript ES6 - Higher Order Functions - map e filter_
+:ballot_box_with_check: 8-3: _JavaScript ES6 - Higher Order Functions - map e filter_
 
-:black_large_square: 8-4: _JavaScript ES6 - Higher Order Functions - reduce_
+:ballot_box_with_check: 8-4: _JavaScript ES6 - Higher Order Functions - reduce_
 
-:black_large_square: 8-5: _JavaScript ES6 - spread operator, rest parameter, destructuring e mais_
+:ballot_box_with_check: 8-5: _JavaScript ES6 - spread operator, rest parameter, destructuring e mais_
 
-:black_large_square: 8-5: _Projeto - Zoo functions_
+:ballot_box_with_check: 8-5: _Projeto - Zoo functions_
 
 
 ### Bloco 9: Javascript Assíncrono e Promises
 
-:black_large_square: 9-1: _JavaScript Assíncrono e Callbacks_
+:ballot_box_with_check: 9-1: _JavaScript Assíncrono e Callbacks_
 
-:black_large_square: 9-2: _JavaScript Promises_
+:ballot_box_with_check: 9-2: _JavaScript Promises_
 
-:black_large_square: 9-3: _Projeto - Carrinho de Compras_
+:ballot_box_with_check: 9-3: _Projeto - Carrinho de Compras_
 
 
 ### Bloco 10: Testes automatizados com Jest
 
-:black_large_square: 10-1: _Primeiros passos no Jest_
+:ballot_box_with_check: 10-1: _Primeiros passos no Jest_
 
-:black_large_square: 10-2: _Jest - Testes Assíncronos_
+:ballot_box_with_check: 10-2: _Jest - Testes Assíncronos_
 
-:black_large_square: 10-3: _Jest - Simulando comportamentos_
+:ballot_box_with_check: 10-3: _Jest - Simulando comportamentos_
 
-:black_large_square: 10-4: _Projeto - Jest Assíncrono e Mocking_
+:ballot_box_with_check: 10-4: _Projeto - Jest Assíncrono e Mocking_
 
   
 ## Desenvolvimento Front-end :hourglass_flowing_sand:
