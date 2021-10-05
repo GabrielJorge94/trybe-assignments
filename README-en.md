@@ -110,7 +110,7 @@ The main technical stacks studied are JavaScript, HTML, CSS, React, Node, Expres
 :ballot_box_with_check: 8-5: _Project - Zoo functions_
 
 
-### Unit 9: Asynchronous Javascript and Promises
+### Unit 9: Asynchronous Javascript and Promises & Automated Testing using Jest
 
 :ballot_box_with_check: 9-1: _JavaScript Async and Callbacks_
 
@@ -118,86 +118,84 @@ The main technical stacks studied are JavaScript, HTML, CSS, React, Node, Expres
 
 :ballot_box_with_check: 9-3: _Project - Shopping Cart_
 
+:ballot_box_with_check: 9-4: _First steps with Jest_
 
-### Unit 10: Automated Testing using Jest
+:ballot_box_with_check: 9-5: _Testing Asynchronous using Jest_
 
-:ballot_box_with_check: 10-1: _First steps with Jest_
+:ballot_box_with_check: 9-6: _Jest - Simulating behaviors_
 
-:ballot_box_with_check: 10-2: _Testing Asynchronous using Jest_
+:ballot_box_with_check: 9-7: _Project - Asynchronous Jest and Mocking_
 
-:ballot_box_with_check: 10-3: _Jest - Simulating behaviors_
-
-:ballot_box_with_check: 10-4: _Project - Asynchronous Jest and Mocking_
 
 ## Front-end development :hourglass_flowing_sand:
 
 
-### Unit 11: Introduction - React
+### Unit 10: Introduction - React
 
-:black_large_square: 11-1: _'Hello, world!' with React!_
+:black_large_square: 10-1: _'Hello, world!' with React!_
 
-:black_large_square: 11-2: _React components_
+:black_large_square: 10-2: _React components_
 
-:black_large_square: 11-3: _Project - Movie Cards Library_
-
-
-### Unit 12: Compenents with state, events and forms with React
-
-:black_large_square: 12-1: _Components with state and events_
-
-:black_large_square: 12-2: _Forms in React_
-
-:black_large_square: 12-3: _Project - Movie Cards Library Stateful_
+:black_large_square: 10-3: _Project - Movie Cards Library_
 
 
-### Unit 13: Lifecycle of components and  React Router
+### Unit 11: Compenents with state, events and forms with React
 
-:black_large_square: 13-1: _Lifecycle of componenets _
+:black_large_square: 11-1: _Components with state and events_
 
-:black_large_square: 13-2: _React Router_
+:black_large_square: 11-2: _Forms in React_
 
-:black_large_square: 13-3: _Project - Movie Cards Library CRUD_
-
-
-### Unit 14: Agile Methodologies
-
-:black_large_square: 14-1: _Agile Methodologies_
-
-:black_large_square: 14-2: _Project - Frontend Online Store_
+:black_large_square: 11-3: _Project - Movie Cards Library Stateful_
 
 
-### Unit 15: Automated testing with React Testing Library
+### Unit 12: Lifecycle of components and  React Router
 
-:black_large_square: 15-1: _RTL - First steps_
+:black_large_square: 12-1: _Lifecycle of componenets _
 
-:black_large_square: 15-2: _RTL - Mocks e Inputs_
+:black_large_square: 12-2: _React Router_
 
-:black_large_square: 15-2: _RTL: Testing with React Router_
-
-:black_large_square: 15-3: _Project - Tests with React_
+:black_large_square: 12-3: _Project - Movie Cards Library CRUD_
 
 
-### Unit 16: Introduction to Redux
+### Unit 13: Agile Methodologies
 
-:black_large_square: 16-1: _Introduction to Redux - The global state of the application_
+:black_large_square: 13-1: _Agile Methodologies_
 
-:black_large_square: 16-2: _Using React Redux_
-
-:black_large_square: 16-3: _Using React Redux - Practices_
-
-:black_large_square: 16-4: _Using React Redu - Async Actions_
-
-:black_large_square: 16-5: _Testing with  React-Redux_
-
-:black_large_square:16-6: _Project - Trybe Wallet_
+:black_large_square: 13-2: _Project - Frontend Online Store_
 
 
-### Unit 17: React Project
+### Unit 14: Automated testing with React Testing Library
 
-:black_large_square: 17-1: _Project - Trivia Game_
+:black_large_square: 14-1: _RTL - First steps_
+
+:black_large_square: 14-2: _RTL - Mocks e Inputs_
+
+:black_large_square: 14-2: _RTL: Testing with React Router_
+
+:black_large_square: 14-3: _Project - Tests with React_
 
 
-### Unit 18: Context API & Reack Hooks
+### Unit 15: Introduction to Redux
+
+:black_large_square: 15-1: _Introduction to Redux - The global state of the application_
+
+:black_large_square: 15-2: _Using React Redux_
+
+:black_large_square: 15-3: _Using React Redux - Practices_
+
+:black_large_square: 15-4: _Using React Redu - Async Actions_
+
+:black_large_square: 15-5: _Testing with  React-Redux_
+
+:black_large_square: 15-6: _Project - Trybe Wallet_
+
+
+### Unit 16: React Project
+
+:black_large_square: 16-1: _Project - Trivia Game_
+
+
+### Unit 17: Context API & Reack Hooks
 
 :black_large_square: 18-1: _Context API React_
 
