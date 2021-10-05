@@ -197,232 +197,232 @@ The main technical stacks studied are JavaScript, HTML, CSS, React, Node, Expres
 
 ### Unit 17: Context API & Reack Hooks
 
-:black_large_square: 18-1: _Context API React_
+:black_large_square: 17-1: _Context API React_
 
-:black_large_square: 18-2: _React Hooks - useState and useContext_
+:black_large_square: 17-2: _React Hooks - useState and useContext_
 
-:black_large_square: 18-3: _React Hooks - useEffect and custom Hooks_
+:black_large_square: 17-3: _React Hooks - useEffect and custom Hooks_
 
-:black_large_square: 18-4: _Project - StarWars Datatable with Context API and Hooks_
+:black_large_square: 17-4: _Project - StarWars Datatable with Context API and Hooks_
 
 
-### Unit 19: Front-end's final project
+### Unit 18: Front-end's final project
 
-:black_large_square: 19-1: _Project - Recipes app_
+:black_large_square: 18-1: _Project - Recipes app_
 
 ## Back-end development :hourglass_flowing_sand:
 
 
-### Unit 20: Introduction - SQL
+### Unit 19: Introduction - SQL
 
-:black_large_square: 20-1: _SQL Database_
+:black_large_square: 19-1: _SQL Database_
 
-:black_large_square: 20-2: _Finding data in a database_
+:black_large_square: 19-2: _Finding data in a database_
 
-:black_large_square: 20-3: _Filtering data in a specific way_
+:black_large_square: 19-3: _Filtering data in a specific way_
 
-:black_large_square: 20-4: _Manipulating tables with SQL_
+:black_large_square: 19-4: _Manipulating tables with SQL_
 
-:black_large_square: 20-5: _Project - All For One_
-
- 
-### Unit 21: Functions SQL, Joins and Subqueries
-
-:black_large_square: 21-1: _Most used functions in SQL_
-
-:black_large_square: 21-2: _JOINs, UNIONs e Subqueries_
-
-:black_large_square: 21-3: _Stored Routines & Stored Functions_
-
-:black_large_square: 21-4: _Project - Vocabulary Booster_
-
-
-### Unit 22: Normalization and structuring database
-
-:black_large_square: 22-1: _Transforming ideas in a database model - Part 1_
-
-:black_large_square: 22-2: _Normalization, Normal form and Dumps_
-
-:black_large_square: 22-2: _Transforming ideas in a database model - Part 2_
-
-:black_large_square: 22-3: _Project - One For All_
+:black_large_square: 19-5: _Project - All For One_
 
  
-### Unit 23: Introduction - MongoDB
+### Unit 20: Functions SQL, Joins and Subqueries
 
-:black_large_square: 23-1: _Introduction to NoSQL e MongoDB_
+:black_large_square: 20-1: _Most used functions in SQL_
 
-:black_large_square: 23-2: _Filter Operators_
+:black_large_square: 20-2: _JOINs, UNIONs e Subqueries_
 
-:black_large_square: 23-3: _Project - Data Flights_
+:black_large_square: 20-3: _Stored Routines & Stored Functions_
+
+:black_large_square: 20-4: _Project - Vocabulary Booster_
 
 
-### Unit 24: MongoDB: Simple and complex updates
+### Unit 21: Normalization and structuring database
 
-:black_large_square: 24-1: _Simple Updates _
+:black_large_square: 21-1: _Transforming ideas in a database model - Part 1_
 
-:black_large_square: 24-2: _Complex Updates  - Arrays - Part 1_
+:black_large_square: 21-2: _Normalization, Normal form and Dumps_
 
-:black_large_square: 24-3: _Complex Updates - Arrays - Part 2_
+:black_large_square: 21-2: _Transforming ideas in a database model - Part 2_
 
-:black_large_square: 24-4: _Project - Commerce_
+:black_large_square: 21-3: _Project - One For All_
+
+ 
+### Unit 22: Introduction - MongoDB
+
+:black_large_square: 22-1: _Introduction to NoSQL e MongoDB_
+
+:black_large_square: 22-2: _Filter Operators_
+
+:black_large_square: 22-3: _Project - Data Flights_
+
+
+### Unit 23: MongoDB: Simple and complex updates
+
+:black_large_square: 23-1: _Simple Updates _
+
+:black_large_square: 23-2: _Complex Updates  - Arrays - Part 1_
+
+:black_large_square: 23-3: _Complex Updates - Arrays - Part 2_
+
+:black_large_square: 23-4: _Project - Commerce_
 
   
-### Unit 25: MongoDB: Aggregation Framework
+### Unit 24: MongoDB: Aggregation Framework
 
-:black_large_square: 25-1: _Aggregation Framework - Part 1_
+:black_large_square: 24-1: _Aggregation Framework - Part 1_
 
-:black_large_square: 25-2: _Aggregation Framework - Part 2_
+:black_large_square: 24-2: _Aggregation Framework - Part 2_
 
-:black_large_square: 25-3: _Project - Aggregations_
-
-
-### Unit 26: Introduction - NodeJS
-
-:black_large_square: 26-1: _NodeJS - Introduction_
-
-:black_large_square: 26-2: _NodeJS - Asynchronous flow_
-
-:black_large_square: 26-3: _Testing with NodeJS_
-
-:black_large_square: 26-4: _Express: HTTP with Node.js_
-
-:black_large_square: 26-5: _Practicing Express_
-
-:black_large_square: 26-6: _Project - Talker Manager_
+:black_large_square: 24-3: _Project - Aggregations_
 
 
-### Unit 27: NodeJS: Service layer, Rest and Restful Architecture
+### Unit 25: Introduction - NodeJS
 
-:black_large_square: 27-1: _Introduction, Service Layer and Layered: Software Architecture_
+:black_large_square: 25-1: _NodeJS - Introduction_
 
-:black_large_square: 27-2: _Software Architecture - Service layer and controller_
+:black_large_square: 25-2: _NodeJS - Asynchronous flow_
 
-:black_large_square: 27-3: _Web Architecture - Rest and Restful_
+:black_large_square: 25-3: _Testing with NodeJS_
 
-:black_large_square: 27-4: _Software Architecture - Testing layers_
+:black_large_square: 25-4: _Express: HTTP with Node.js_
 
-:black_large_square: 27-3: _Project - Store Manager_
+:black_large_square: 25-5: _Practicing Express_
+
+:black_large_square: 25-6: _Project - Talker Manager_
+
+
+### Unit 26: NodeJS: Service layer, Rest and Restful Architecture
+
+:black_large_square: 26-1: _Introduction, Service Layer and Layered: Software Architecture_
+
+:black_large_square: 26-2: _Software Architecture - Service layer and controller_
+
+:black_large_square: 26-3: _Web Architecture - Rest and Restful_
+
+:black_large_square: 26-4: _Software Architecture - Testing layers_
+
+:black_large_square: 26-3: _Project - Store Manager_
 
  
-### Unit 28: Authentication and file uploads
+### Unit 27: Authentication and file uploads
 
-:black_large_square: 28-1: _NodeJS - JWT - (JSON Web Token)_
+:black_large_square: 27-1: _NodeJS - JWT - (JSON Web Token)_
 
-:black_large_square: 28-2: _NodeJS - Uploading files with "multer"_
+:black_large_square: 27-2: _NodeJS - Uploading files with "multer"_
 
-:black_large_square: 28-3: _Testing APIs with Integration Test_
+:black_large_square: 27-3: _Testing APIs with Integration Test_
 
-:black_large_square: 28-3: _Project - Cookmaster_
+:black_large_square: 27-3: _Project - Cookmaster_
 
-### Unit 29: Deployment
+### Unit 28: Deployment
 
-:black_large_square: 29-1: _Introduction - Deploy_
+:black_large_square: 28-1: _Introduction - Deploy_
 
-:black_large_square: 29-1: _Infrastructure - Heroku Deployment_
+:black_large_square: 28-1: _Infrastructure - Heroku Deployment_
 
-:black_large_square: 29-2: _Process Managers_
+:black_large_square: 28-2: _Process Managers_
 
-:black_large_square: 29-3: _Project - Stranger Things_
-
-
-### Unit 30: Architecture: SOLID and ORM
-
-:black_large_square: 30-1: _Architecture - SOLID principles_
-
-:black_large_square: 30-2: _ORM_
-
-:black_large_square: 30-3: _ORM - Associations_
-
-:black_large_square: 30-4: _Project - Blogs API_
+:black_large_square: 28-3: _Project - Stranger Things_
 
 
-### Unit 31: Sockets
+### Unit 29: Architecture: SOLID and ORM
 
-:black_large_square: 31-1: _Software Architecture - Views layer_
+:black_large_square: 29-1: _Architecture - SOLID principles_
 
-:black_large_square: 31-2: _Sockets - TCP/UDP & NET_
+:black_large_square: 29-2: _ORM_
 
-:black_large_square: 31-3: _Sockets - Socket.io_
+:black_large_square: 29-3: _ORM - Associations_
 
-:black_large_square: 31-4 _Sockets - Practicing Socket.io_
-
-:black_large_square: 31-5: _Project - Webchat_
+:black_large_square: 29-4: _Project - Blogs API_
 
 
-### Unit 32: Project
+### Unit 30: Sockets
 
--:black_large_square: 34-1: _Project - Trybeer V_
+:black_large_square: 30-1: _Software Architecture - Views layer_
+
+:black_large_square: 30-2: _Sockets - TCP/UDP & NET_
+
+:black_large_square: 30-3: _Sockets - Socket.io_
+
+:black_large_square: 30-4 _Sockets - Practicing Socket.io_
+
+:black_large_square: 30-5: _Project - Webchat_
+
+
+### Unit 31: Project
+
+-:black_large_square: 31-1: _Project - Trybeer V_
 
 
 ## Computer Science :hourglass_flowing_sand:
 
  
-### Unit 33: Introduction - Computer Science
+### Unit 32: Introduction - Computer Science
 
-:black_large_square:  33-1: _Computer Architecture_
+:black_large_square:  32-1: _Computer Architecture_
 
-:black_large_square: 33-2: _Network_
+:black_large_square: 32-2: _Network_
 
-:black_large_square: 33-3: _Network and security tools_
+:black_large_square: 32-3: _Network and security tools_
 
-:black_large_square: 35-4: _Project - Exploring protocols_
-
-
-### Unit 34: Introduction - Python and Web Data Scraping
-
-:black_large_square: 34-1: _Learning Python_
-
-:black_large_square: 34-2: _Input and Output_
-
-:black_large_square: 34-3: _Data Scraping_
-
-:black_large_square: 34-4: _Testing_
-
-:black_large_square: 34-5: _Project - Tech news_
+:black_large_square: 32-4: _Project - Exploring protocols_
 
 
-### Unit 35: Object Oriented Programming and Design Patterns
+### Unit 33: Introduction - Python and Web Data Scraping
 
-:black_large_square: 35-1: _Introduction - Object Oriented Programming and Design Patterns_
+:black_large_square: 33-1: _Learning Python_
 
-:black_large_square: 35-2: _Inheritance, composition and Interfaces_
+:black_large_square: 33-2: _Input and Output_
 
-:black_large_square: 35-3: _Design patterns_
+:black_large_square: 33-3: _Data Scraping_
 
-:black_large_square: 35-4: _Project - Project Report_
+:black_large_square: 33-4: _Testing_
 
-
-### Unit 36: Algorithms and Data Structure
-
-:black_large_square: 36-1: _Algorithmic Complexity_
-
-:black_large_square: 36-2: _Recursinevess and Strategic thinking in problem solving_
-
-:black_large_square: 36-3: _Searching and sorting algorithms_
-
-:black_large_square: 36-4: _Project - Algorithms_
+:black_large_square: 33-5: _Project - Tech news_
 
 
-### Unit 37: Data Structure: Hash and Set
+### Unit 34: Object Oriented Programming and Design Patterns
 
-:black_large_square: 37-1: _Arrays_
+:black_large_square: 34-1: _Introduction - Object Oriented Programming and Design Patterns_
 
-:black_large_square: 37-2: _Hashmap and Dict_
+:black_large_square: 34-2: _Inheritance, composition and Interfaces_
 
-:black_large_square: 37-3: _Set_
+:black_large_square: 34-3: _Design patterns_
 
-:black_large_square: 37-3: _Project - Restaurant Orders_
+:black_large_square: 34-4: _Project - Project Report_
 
 
-### Unit 38: Data Structure: Lists, stacks and queues
+### Unit 35: Algorithms and Data Structure
 
-:black_large_square: 38-1: _Linked Lists_
+:black_large_square: 35-1: _Algorithmic Complexity_
 
-:black_large_square: 38-2: _Deque_
+:black_large_square: 35-2: _Recursinevess and Strategic thinking in problem solving_
 
-:black_large_square: 38-3: _Stacks_
+:black_large_square: 35-3: _Searching and sorting algorithms_
 
-:black_large_square: 38-4: _Project: TING - Trybe Is Not Google_
+:black_large_square: 35-4: _Project - Algorithms_
+
+
+### Unit 36: Data Structure: Hash and Set
+
+:black_large_square: 36-1: _Arrays_
+
+:black_large_square: 36-2: _Hashmap and Dict_
+
+:black_large_square: 36-3: _Set_
+
+:black_large_square: 36-3: _Project - Restaurant Orders_
+
+
+### Unit 37: Data Structure: Lists, stacks and queues
+
+:black_large_square: 37-1: _Linked Lists_
+
+:black_large_square: 37-2: _Deque_
+
+:black_large_square: 37-3: _Stacks_
+
+:black_large_square: 37-4: _Project: TING - Trybe Is Not Google_
 
 
