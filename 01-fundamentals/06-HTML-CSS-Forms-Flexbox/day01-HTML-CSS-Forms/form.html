@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Form</title>
+<!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+<link rel="stylesheet" href="../DatePickerX-master/dist/css/DatePickerX.min.css">
+<!-- <link rel="stylesheet" href="style.css"> -->
+</head>
+  <body>
+    <form class='.bg-light.bg-gradient' action="" method="get">
+      <div class="container mb-3">
+        <h1 class="display-3 text-center">Preencha o Forms!!!</h1>
+      </div>
+      <div class="container mb-3">
+        <p>Dados pessoais</p></div>
+      <div class="container mb-3">
+        <label for="names">Nome</label>
+        <input class="form-control" type="text" name="enterName" id="names" required maxlength="40">
+      </div>
+        <div class="container mb-3">
+        <label for="emails">E-mail</label>
+        <input class="form-control" type="text" name="enterEmail" id="emails" required maxlength="50">
+      </div>
+        <div class="container mb-3">
+        <label for="cpfs">CPF</label>
+        <input class="form-control" type="text" name="enterCPF" id="cpfs" required maxlength="11">
+      </div>
+      <div class="container mb-3">
+        <label for="addresses">Endereco</label>
+        <input class="form-control" type="text" name="enterAddress" id="addresses" required maxlength="11">
+      </div>
+      <div class="container mb-3">
+        <label for="cities">Cidade</label>
+        <input class="form-control" type="text" name="enterCity" id="cities" required maxlength="28">
+      </div>
+      <div class="container mb-3">
+        <label for="states">Estados</label>
+        <select class="form-select" name="enterStates" id="states">
+        <option value=""></option>
+      </select>
+      </div>
+      <div class="container form-check mb-3">
+        <input class="form-check-input" type="radio" name="enterType" id="house" required></input>
+        <label class="form-check-label" for="house">Casa</label>
+      </div>
+      <div class="container form-check mb-3">
+        <input class="form-check-input" type="radio" name="enterType" id="apartment" required></input>
+        <label class="form-check-label" for="apartment">Apartamento</label>
+      </div>
+      <div class="container mb-3">
+        <label for="resume">Resumo do Curriculo</label>
+        <textarea class="form-control" name="resume" id="resume" rows="5" maxlength="1000" required></textarea>
+      </div>
+      <div class="container mb-3">
+        <label for="position">Cargo</label>
+        <input class="form-control" type="text" name="position" id="position" maxlength="40">
+      </div>
+      <div class="container mb-3">
+        <label for="positionDescription">Descricao do Cargo</label>
+        <input class="form-control" type="text" name="positionDescription" id="positionDescription" maxlength="500">
+      </div>
+      <div class="container mb-3">
+        <label for="date">Data de Inicio</label>
+        <input class="form-control" type="text" name="enterDate" id="date" maxlength="40">
+      </div>
+      <div class="container mb-3">
+        <input class="button-submit btn btn-success" type="submit" value="testando">
+      </div>
+</form>
+
+<script src="../DatePickerX-master/dist/js/DatePickerX.min.js"></script>
+<script src="script.js"></script>
+</body>
+</html>

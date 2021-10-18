@@ -1,0 +1,33 @@
+*{
+  margin-left: 5px;
+  padding: 0;
+  line-height: 1.4;
+  background-color: rgb(247, 248, 249);
+  font-family: sans-serif, Arial, Helvetica;
+  border-radius: 5px;
+}
+
+legend{
+  background-color: rgb(243, 244, 245);
+}
+fieldset{
+  margin-bottom: 25px;
+  background-color: rgb(243, 244, 245);
+}
+fieldset label{
+  margin-bottom: 25px;
+  background-color: rgb(243, 244, 245);
+}
+fieldset input[type='text']{
+  width: 100%;
+
+}
+fieldset textarea{
+  width: 100%;
+}
+
+.containers {
+  background-color: rgb(243, 244, 245);
+  margin: 10px;
+  /* padding: 5px; */
+}

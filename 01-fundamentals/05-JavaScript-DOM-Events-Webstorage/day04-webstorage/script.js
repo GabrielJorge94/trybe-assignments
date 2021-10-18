@@ -23,3 +23,4 @@ function insertPhraseInDOM() {
 };
 
 button.addEventListener('click', addPhraseToSessionStorage);
+
