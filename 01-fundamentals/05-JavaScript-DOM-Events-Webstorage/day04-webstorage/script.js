@@ -1,24 +1,26 @@
-// cor de fundo da tela
-window.onload = function(){
-let getSelector = document.querySelector('select')
-getSelector.addEventListener('change', function(){
-  let selected = getSelector.selectedOptions[0];
-  document.body.style.backgroundColor = selected.value;
-})
+const button = document.getElementById('add-button');
+const input = document.getElementById('phrases-input');
+const list = document.getElementById('phrases-list');
 
+function addPhraseToSessionStorage() {
+  if (sessionStorage.getItem('phrases') === null) {
+    sessionStorage.setItem('phrases', JSON.stringify([]));
+  }
+  const oldList = JSON.parse(sessionStorage.getItem('phrases'));
+  const phraseText = input.value;
+  oldList.push(phraseText);
+  sessionStorage.setItem('phrases', JSON.stringify(oldList));
+  insertPhraseInDOM();
+};
 
-}
+function insertPhraseInDOM() {
+  const phrasesList = JSON.parse(sessionStorage.getItem('phrases'));
+  const listLength = phrasesList.length - 1;
+  const phraseText = phrasesList[listLength];
+  const phrase = document.createElement('li');
+  phrase.innerText = phraseText;
+  list.appendChild(phrase);
+};
 
+button.addEventListener('click', addPhraseToSessionStorage);
 
-
-// getp.addEventListener('click', changeColor);
-
-
-
-// cor do texto
-
-// tamanho da fonte 
-
-// espacamento entre as linhas 
-
-// tipo da fonte 
