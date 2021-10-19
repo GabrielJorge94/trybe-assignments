@@ -147,6 +147,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 :ballot_box_with_check: 11-1: _Components com estado e eventos_
 
 :ballot_box_with_check: 11-2: _Formulários no React_
+
 :ballot_box_with_check: 11-3: _Projeto - Movie Cards Library Stateful_
 
 ### Bloco 12: Ciclo de Vida de Componentes e React Router
