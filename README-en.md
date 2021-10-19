@@ -132,27 +132,27 @@ The main technical stacks studied are JavaScript, HTML, CSS, React, Node, Expres
 
 ### Unit 10: Introduction - React
 
-:black_large_square: 10-1: _'Hello, world!' with React!_
+:ballot_box_with_check: 10-1: _'Hello, world!' with React!_
 
-:black_large_square: 10-2: _React components_
+:ballot_box_with_check: 10-2: _React components_
 
-:black_large_square: 10-3: _Project - Movie Cards Library_
+:ballot_box_with_check: 10-3: _Project - Movie Cards Library_
 
 
 ### Unit 11: Compenents with state, events and forms with React
 
-:black_large_square: 11-1: _Components with state and events_
+:ballot_box_with_check: 11-1: _Components with state and events_
 
-:black_large_square: 11-2: _Forms in React_
+:ballot_box_with_check: 11-2: _Forms in React_
 
-:black_large_square: 11-3: _Project - Movie Cards Library Stateful_
+:ballot_box_with_check: 11-3: _Project - Movie Cards Library Stateful_
 
 
 ### Unit 12: Lifecycle of components and  React Router
 
-:black_large_square: 12-1: _Lifecycle of componenets _
+:ballot_box_with_check: 12-1: _Lifecycle of componenets _
 
-:black_large_square: 12-2: _React Router_
+:ballot_box_with_check: 12-2: _React Router_
 
 :black_large_square: 12-3: _Project - Movie Cards Library CRUD_
 
