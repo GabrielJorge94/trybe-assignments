@@ -152,6 +152,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 ### Bloco 12: Ciclo de Vida de Componentes e React Router
 
 :ballot_box_with_check: 12-1: _Ciclo de vida de componentes_
+
 :ballot_box_with_check: 12-2: _React Router_
 
 :black_large_square: 12-3: _Projeto - Movie Cards Library CRUD_
