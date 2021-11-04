@@ -139,7 +139,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 
 :ballot_box_with_check: 10-2: _Componentes React_
 
-:black_large_square: 10-3: _Projeto - Movie Cards Library_
+:ballot_box_with_check: 10-3: _Projeto - Movie Cards Library_
 
  
 ### Bloco 11: Componentes com Estado, Eventos e Formulários com React
