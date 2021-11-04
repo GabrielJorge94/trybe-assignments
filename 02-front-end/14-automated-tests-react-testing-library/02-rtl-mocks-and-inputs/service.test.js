@@ -1,7 +1,6 @@
-const { afterEach } = require('@jest/globals');
 const service = require('./service');
 
-describe('Testa funcao que gera nuymero aleatorio', () => {
+describe('Testa funcao que gera numero aleatorio', () => {
   afterEach(() => {
     jest.clearAllMocks();
   });
@@ -30,5 +29,63 @@ describe('Testa funcao que gera nuymero aleatorio', () => {
     expect(service.generateRandomNumber).toHaveBeenCalledWith(10, 2);
 
     expect(service.generateRandomNumber).toHaveBeenCalledTimes(1);
+  });
+
+  it('Testa se a função foi chamada e a nova implementação de multiplicacao foi aplicada.', () => {
+    service.generateRandomNumber = jest.fn().mockImplementation((num1, num2, num3) => num1 * num2 * num3);
+
+    expect(service.generateRandomNumber(10, 2, 3)).toBe(60);
+
+    expect(service.generateRandomNumber).toHaveBeenCalled();
+
+    expect(service.generateRandomNumber).toHaveBeenCalledWith(10, 2, 3);
+
+    expect(service.generateRandomNumber).toHaveBeenCalledTimes(1);
+  });
+});
+
+describe('Testa 3 funcoes do exercicio 4', () => {
+  it('Verifica nova implementacao para a primeira funcao que deve retornar a string em lowerCase', () => {
+    const mockUpperCaseString = jest
+      .spyOn(service, 'upperCaseString')
+      .mockImplementation((str) => str.toLowerCase());
+
+    expect(mockUpperCaseString('TESTE')).toBe('teste');
+
+    expect(mockUpperCaseString).toHaveBeenCalled();
+
+    expect(mockUpperCaseString).toHaveBeenCalledTimes(1);
+
+    expect(mockUpperCaseString).toHaveBeenCalledWith('TESTE');
+
+    mockUpperCaseString.mockRestore();
+
+    expect(service.upperCaseString('teste')).toBe('TESTE');
+  });
+
+  it('Verifica nova implementacao para a segunda funcao que deve retornar a ultima letra de uma string', () => {
+    service.getFirstLetterString = jest.fn().mockImplementation((str) => str.charAt(str.length - 1));
+
+    expect(service.getFirstLetterString('TESTE')).toBe('E');
+
+    expect(service.getFirstLetterString).toHaveBeenCalled();
+
+    expect(service.getFirstLetterString).toHaveBeenCalledWith('TESTE');
+
+    expect(service.getFirstLetterString).toHaveBeenCalledTimes(1);
+  });
+
+  it('Verifica nova implementacao para a terceira funcao que deve retornar a concatenacao de tres strings', () => {
+    service.concatString = jest.fn().mockImplementation(
+      (str1, str2, str3) => str1 + str2 + str3,
+    );
+
+    expect(service.concatString('TESTE', 'TESTE2', 'TESTE3')).toBe('TESTETESTE2TESTE3');
+
+    expect(service.concatString).toHaveBeenCalled();
+
+    expect(service.concatString).toHaveBeenCalledWith('TESTE', 'TESTE2', 'TESTE3');
+
+    expect(service.concatString).toHaveBeenCalledTimes(1);
   });
 });
