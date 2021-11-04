@@ -154,23 +154,23 @@ The main technical stacks studied are JavaScript, HTML, CSS, React, Node, Expres
 
 :ballot_box_with_check: 12-2: _React Router_
 
-:black_large_square: 12-3: _Project - Movie Cards Library CRUD_
+:ballot_box_with_check: 12-3: _Project - Movie Cards Library CRUD_
 
 
 ### Unit 13: Agile Methodologies
 
-:black_large_square: 13-1: _Agile Methodologies_
+:ballot_box_with_check: 13-1: _Agile Methodologies_
 
-:black_large_square: 13-2: _Project - Frontend Online Store_
+:ballot_box_with_check: 13-2: _Project - Frontend Online Store_
 
 
 ### Unit 14: Automated testing with React Testing Library
 
-:black_large_square: 14-1: _RTL - First steps_
+:ballot_box_with_check: 14-1: _RTL - First steps_
 
-:black_large_square: 14-2: _RTL - Mocks e Inputs_
+:ballot_box_with_check: 14-2: _RTL - Mocks e Inputs_
 
-:black_large_square: 14-2: _RTL: Testing with React Router_
+:ballot_box_with_check: 14-2: _RTL: Testing with React Router_
 
 :black_large_square: 14-3: _Project - Tests with React_
 
