@@ -89,3 +89,34 @@ describe('Testa 3 funcoes do exercicio 4', () => {
     expect(service.concatString).toHaveBeenCalledTimes(1);
   });
 });
+
+describe('Testa a requisicao da API', () => {
+  service.fetchDogApi = jest.fn();
+  afterEach(service.fetchDogApi.mockReset);
+
+  it('Verifica se o Status da API teve sucesso ', async () => {
+    service.fetchDogApi.mockResolvedValue('request sucess');
+
+    service.fetchDogApi();
+
+    expect(service.fetchDogApi).toHaveBeenCalled();
+
+    expect(service.fetchDogApi).toHaveBeenCalledTimes(1);
+
+    expect(service.fetchDogApi).toHaveBeenCalledWith();
+
+    await expect(service.fetchDogApi()).resolves.toBe('request sucess');
+
+    expect(service.fetchDogApi).toHaveBeenCalledTimes(2);
+  });
+
+  it('Verifica se o Status da API teve erro ', async () => {
+    service.fetchDogApi.mockRejectedValue('request failed');
+
+    expect(service.fetchDogApi).toHaveBeenCalledTimes(0);
+
+    await expect(service.fetchDogApi()).rejects.toMatch('request failed');
+
+    expect(service.fetchDogApi).toHaveBeenCalledTimes(1);
+  });
+});
