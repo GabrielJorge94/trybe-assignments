@@ -156,24 +156,24 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 
 :ballot_box_with_check: 12-2: _React Router_
 
-:black_large_square: 12-3: _Projeto - Movie Cards Library CRUD_
+:ballot_box_with_check: 12-3: _Projeto - Movie Cards Library CRUD_
 
 
 ### Bloco 13: Metodologias ágeis
 
-:black_large_square: 13-1: _Metodologias ágeis_
+:ballot_box_with_check: 13-1: _Metodologias ágeis_
 
-:black_large_square: 13-2: _Projeto - Frontend Online Store_
+:ballot_box_with_check: 13-2: _Projeto - Frontend Online Store_
 
 ### Bloco 14: Testes automatizados com React Testing Library
 
-:black_large_square: 14-1: _RTL - Primeiros Passos_
+:ballot_box_with_check: 14-1: _RTL - Primeiros Passos_
 
-:black_large_square: 14-2: _RTL - Mocks e Inputs_
+:ballot_box_with_check: 14-2: _RTL - Mocks e Inputs_
 
-:black_large_square: 14-2: _RTL: Testando com React Router_
+:ballot_box_with_check: 14-3: _RTL: Testando com React Router_
 
-:black_large_square: 14-3: _Projeto - Testes em React_
+:black_large_square: 14-4: _Projeto - Testes em React_
 
 
 ### Bloco 15: Introdução ao Redux
