@@ -1,25 +1,39 @@
-import logo from './logo.svg';
 import './App.css';
+import React from 'react';
 
-function App() {
-  return (
+
+class App extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      selected: '',
+      isFetching: false,
+      items: [],
+    };
+  }
+
+  handleSelectionChange = (event) => {
+    this.setState({
+      selected: event.target.value,
+    });
+  }
+
+
+  render() {
+    const { selected } = this.state;
+    return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <h1>Selected: { selected } </h1>
+      <select
+      onChange={this.handleSelectionChange}
+      >
+        <option value="">Select</option>
+        <option value="frontend">Front-End</option>
+        <option value="reactjs">React.Js</option>
+      </select>
     </div>
-  );
+    );
+  }
 }
 
 export default App;
