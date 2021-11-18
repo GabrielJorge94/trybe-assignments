@@ -15,7 +15,8 @@ export const getData = (data) => {
   };
 }
 
-export const changeSelectedSubreddit = (payload) => {
+export const changeSelectedSubreddit = (dispatch, payload) => {
+  dispatch(fetchApi(payload));
   return {
     type: CHANGE_SELECTED_SUBREDDIT,
     payload,

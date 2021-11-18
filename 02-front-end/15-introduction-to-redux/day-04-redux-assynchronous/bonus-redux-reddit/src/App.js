@@ -3,29 +3,24 @@ import React from 'react';
 import { connect } from 'react-redux';
 import Button from './components/Button';
 import { changeSelectedSubreddit } from './Redux/actions';
+import Reddit from './components/Reddit';
 
 
 class App extends React.Component {
- 
-
-
-
-
-
-  render() {
+     render() {
     const { selected, changeSelected } = this.props;
-    console.log(this.props);
     return (
     <div className="App">
       <h1>Selected: { selected } </h1>
       <select
       onChange={changeSelected}
       >
-        <option value="">Select an option</option>
+        <option value="" hidden>Select an option</option>
         <option value="frontend">Front-End</option>
         <option value="reactjs">React.Js</option>
       </select>
       <Button selected={selected}/>
+      {selected !== '' && <Reddit />}
     </div>
     );
   }
@@ -41,8 +36,7 @@ const mapStateToProps = (state) => {
 const mapDispatchToProps = (dispatch) => {
   return {
     changeSelected: (e) => {
-      console.log(e.target.value);
-      dispatch(changeSelectedSubreddit(e.target.value));
+      dispatch(changeSelectedSubreddit(dispatch, e.target.value));
     },
   };
 };
