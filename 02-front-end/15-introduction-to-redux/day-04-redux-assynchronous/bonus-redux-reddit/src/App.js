@@ -10,17 +10,22 @@ class App extends React.Component {
      render() {
     const { selected, changeSelected } = this.props;
     return (
-    <div className="App">
-      <h1>Selected: { selected } </h1>
-      <select
-      onChange={changeSelected}
-      >
-        <option value="" hidden>Select an option</option>
-        <option value="frontend">Front-End</option>
-        <option value="reactjs">React.Js</option>
-      </select>
-      <Button selected={selected}/>
-      {selected !== '' && <Reddit />}
+    <div>
+      <div className="container">
+        <h1>Selected: { selected } </h1>
+        <div className="container-row">
+          <select
+          className="select-container"
+          onChange={changeSelected}
+          >
+              <option value="" hidden>Select an option</option>
+              <option value="frontend">Front-End</option>
+              <option value="reactjs">React.Js</option>
+          </select>
+          <Button selected={selected}/>   
+        </div>
+        {selected !== '' && <Reddit />}       
+      </div>
     </div>
     );
   }

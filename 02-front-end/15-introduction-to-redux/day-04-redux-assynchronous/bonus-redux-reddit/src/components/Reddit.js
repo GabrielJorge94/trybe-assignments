@@ -12,7 +12,7 @@ class Reddit extends React.Component {
         items.map((item) => {
           return (
             <div key={item.data.name}> 
-              <p>{item.data.title}</p>
+              <p className="text" >{item.data.title}</p>
             </div>
           )
         })

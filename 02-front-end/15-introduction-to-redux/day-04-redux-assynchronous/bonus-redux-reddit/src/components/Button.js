@@ -8,6 +8,7 @@ class Button extends React.Component {
     return (
       <div>
         <button
+        className="btn"
         disabled={selected === ''}
         type="button"
         onClick={()=> getSelectedReddit(selected)}
